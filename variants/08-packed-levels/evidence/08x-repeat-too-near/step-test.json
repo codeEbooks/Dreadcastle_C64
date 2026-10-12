@@ -1,0 +1,58 @@
+{
+  "program": "variants/08-packed-levels/08x-repeat-too-near/game/build/dreadcastle.prg",
+  "stopped_at": 61,
+  "screenshots": [
+    {
+      "file": "variants/08-packed-levels/evidence/08x-repeat-too-near/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "2a67fe786f83ced4572621e206b07fee90f059ebdb5e7d9a7bd4b723a8fe8007",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/08-packed-levels/evidence/08x-repeat-too-near/repeat-too-near.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "af6ff04ee22bcac65cfd19625cd74bae103fa4a184a1a3ce20dff02e0770f5bf",
+      "camera": 0,
+      "oscar": [
+        38,
+        173,
+        9
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 61
+    }
+  ],
+  "checks": [
+    {
+      "check": "the level in memory equals the model's (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 1 (still at the start): the level differs"
+    }
+  ],
+  "result": "FAIL"
+}

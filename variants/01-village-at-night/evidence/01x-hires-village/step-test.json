@@ -1,0 +1,36 @@
+{
+  "program": "variants/01-village-at-night/01x-hires-village/game/build/dreadcastle.prg",
+  "stopped_at": 3,
+  "screenshots": [
+    {
+      "file": "variants/01-village-at-night/evidence/01x-hires-village/hires-village.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c8a9ef4d6a681c27661e5d5969f3a5eb1ac0b3bf72be33da25caf492b46bf389",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 3
+    }
+  ],
+  "checks": [
+    {
+      "check": "$d016 and $d018 from the frame before (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 1 (the village at night: nothing moves): 0xc7 0x03, model (23, 2)"
+    }
+  ],
+  "result": "FAIL"
+}

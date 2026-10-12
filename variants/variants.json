@@ -1,0 +1,649 @@
+{
+  "results": [
+    {
+      "id": "01a-churchyard-first",
+      "step": 1,
+      "kind": "variant",
+      "title": "The churchyard first",
+      "proved": true,
+      "prg_sha256": "7297bc65d1b6727a56571e2d0d5bdd053edf615a959f8c77ebae2e68b7d404a9",
+      "test": "PASS",
+      "frames": 100,
+      "checks": 32,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "level 2 on the screen",
+          "true": true
+        },
+        {
+          "fact": "its name in the HUD's last row",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "01b-another-name",
+      "step": 1,
+      "kind": "variant",
+      "title": "Another name",
+      "proved": true,
+      "prg_sha256": "cc2eddb9b97ba9d0635e160acd3d808f3c41fbd2cd4a9f1fb84f05f6f640e72e",
+      "test": "PASS",
+      "frames": 100,
+      "checks": 32,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the new name in the HUD's last row",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "01x-hires-village",
+      "step": 1,
+      "kind": "break",
+      "title": "The village in thin stripes",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "$d016 and $d018 from the frame before (the route stopped at its first failure)",
+      "detail": "frame 1 (the village at night: nothing moves): 0xc7 0x03, model (23, 2)",
+      "stopped_at": 3,
+      "shots": [
+        "variants/01-village-at-night/evidence/01x-hires-village/hires-village.png"
+      ]
+    },
+    {
+      "id": "02a-slow-camera",
+      "step": 2,
+      "kind": "variant",
+      "title": "A slow camera",
+      "proved": true,
+      "prg_sha256": "6ae89df9aadcdbe2ef380e057ee5a58052ba675554ccee6c0301987536e0975b",
+      "test": "PASS",
+      "frames": 4170,
+      "checks": 37,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "one pixel a frame",
+          "true": true
+        },
+        {
+          "fact": "the camera never waits going one way",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "02b-fast-camera",
+      "step": 2,
+      "kind": "variant",
+      "title": "A camera faster than the back screen",
+      "proved": true,
+      "prg_sha256": "64db3b4b63929be65087bfd29abf53ca23f29b047839f33646a75c11cbf7bd94",
+      "test": "PASS",
+      "frames": 2120,
+      "checks": 38,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the camera waits at the edge of its columns",
+          "true": true
+        },
+        {
+          "fact": "no faster than two pixels a frame",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "02x-colours-left-behind",
+      "step": 2,
+      "kind": "break",
+      "title": "Colours left behind",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "colour RAM equals the model (the route stopped at its first failure)",
+      "detail": "frame 24 (right: the street scrolls, 2 pixels a frame): column 0 row 15: 12 instead of 15",
+      "stopped_at": 84,
+      "shots": [
+        "variants/02-scrolling/evidence/02x-colours-left-behind/colours-left-behind.png"
+      ]
+    },
+    {
+      "id": "03a-higher-jump",
+      "step": 3,
+      "kind": "variant",
+      "title": "A higher jump",
+      "proved": true,
+      "prg_sha256": "698e576d612f15e61d93c8b64b2d6b988ccb5bd41a33e702589406150c86f97c",
+      "test": "PASS",
+      "frames": 84,
+      "checks": 32,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "62 lines up, Up held",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "03b-faster-walk",
+      "step": 3,
+      "kind": "variant",
+      "title": "A faster walk",
+      "proved": true,
+      "prg_sha256": "909c98b1dafdd6b933ed1ebf006917fd6f50c94abf7ae19654d4cbc4b228b600",
+      "test": "PASS",
+      "frames": 95,
+      "checks": 31,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "at the crates in 55 frames",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "03x-sign-lost",
+      "step": 3,
+      "kind": "break",
+      "title": "A step to the left, 256 pixels to the right",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "Oscar's variables equal the model (the route stopped at its first failure)",
+      "detail": "frame 36 (walk left to the end of the level): [240, 27, 1, 0, 144, 240, 255, 0, 0, 1, 1, 16, 0, 7, 4] model [240, 27, 0, 0, 144, 240, 255, 0, 0, 1, 1, 16, 0, 7, 4]",
+      "stopped_at": 66,
+      "shots": [
+        "variants/03-oscar/evidence/03x-sign-lost/sign-lost.png"
+      ]
+    },
+    {
+      "id": "04a-tireless-bat",
+      "step": 4,
+      "kind": "variant",
+      "title": "A tireless bat",
+      "proved": true,
+      "prg_sha256": "89acfa38f4e5efd7d00f14ebc109a10a3875eb2b7a5ff199d9035a621b283a19",
+      "test": "PASS",
+      "frames": 1032,
+      "checks": 33,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "48 beats before the energy runs out",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "04b-slow-descent",
+      "step": 4,
+      "kind": "variant",
+      "title": "A slow descent",
+      "proved": true,
+      "prg_sha256": "8288cfed8827561e14798aa8b1a185c6494d9849fdbb2784b856303f40aabecd",
+      "test": "PASS",
+      "frames": 213,
+      "checks": 34,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "down from the top in 71 frames",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "04x-endless-energy",
+      "step": 4,
+      "kind": "break",
+      "title": "Endless energy",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "Oscar's form, smoke, energy, moths equal the model (the route stopped at its first failure)",
+      "detail": "frame 4668 (beats left until the energy runs out): [1, 0, 64, 254, 0, 1, 0] model [0, 12, 64, 6, 0, 16, 0]",
+      "stopped_at": 4688,
+      "shots": [
+        "variants/04-bat/evidence/04x-endless-energy/endless-energy.png"
+      ]
+    },
+    {
+      "id": "05a-chalice-on-the-street",
+      "step": 5,
+      "kind": "variant",
+      "title": "The chalice on the street",
+      "proved": true,
+      "prg_sha256": "7fde19907e70d1e642c36b95f98f5074692b731f49e26135c1b896b48a83f076",
+      "test": "PASS",
+      "frames": 87,
+      "checks": 36,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "taken by walking",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "05b-short-night",
+      "step": 5,
+      "kind": "variant",
+      "title": "A night of one minute",
+      "proved": true,
+      "prg_sha256": "7e5fd8ca8b8fdabac38668e8b4f1d55a15e95df7a7f98fb726f9b26612e1171f",
+      "test": "PASS",
+      "frames": 3088,
+      "checks": 34,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "dawn after 16 x 188 frames",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "05x-taken-again",
+      "step": 5,
+      "kind": "break",
+      "title": "The same heirloom three times",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "the level's variables equal the model (the route stopped at its first failure)",
+      "detail": "frame 277 (level 1: the way of levels.py, move 11): [8, 16, 98, 0, 1, 0, 0, 0, 0, 134, 28, 0, 0, 135, 135] model [8, 16, 98, 0, 1, 1, 0, 0, 0, 134, 28, 0, 0, None, None]",
+      "stopped_at": 307,
+      "shots": [
+        "variants/05-heirlooms-and-gate/evidence/05x-taken-again/taken-again.png"
+      ]
+    },
+    {
+      "id": "06a-watchman-at-the-start",
+      "step": 6,
+      "kind": "variant",
+      "title": "A watchman at the start",
+      "proved": true,
+      "prg_sha256": "cb71ac8d0ce39f03aacf3b18231f77f05ae9b98e0ee9d7d17ce19514b2e11ed5",
+      "test": "PASS",
+      "frames": 269,
+      "checks": 38,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "a hit while Oscar waits",
+          "true": true
+        },
+        {
+          "fact": "two notches of health",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "06b-hard-night",
+      "step": 6,
+      "kind": "variant",
+      "title": "A hard night",
+      "proved": true,
+      "prg_sha256": "b7237972c55a9e2abb2dca8ad308b5253a113097495772cf359eddc5601316df",
+      "test": "PASS",
+      "frames": 404,
+      "checks": 40,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "four notches at the first touch",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "06x-pointers-of-one-screen",
+      "step": 6,
+      "kind": "break",
+      "title": "Enemies of one screen",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "sprites 3-6, the enemies, equal the model (the route stopped at its first failure)",
+      "detail": "frame 645 (walk right to the trapdoor): slot 0: (86, 173, 130, 0, 8)",
+      "stopped_at": 647,
+      "shots": [
+        "variants/06-enemies/evidence/06x-pointers-of-one-screen/pointers-of-one-screen.png"
+      ]
+    },
+    {
+      "id": "07a-slower-blow",
+      "step": 7,
+      "kind": "variant",
+      "title": "A slower blow",
+      "proved": true,
+      "prg_sha256": "a9a6446e2fd633ce298436ce877ee104f6ea10267208d988fcc431d9d52f9489",
+      "test": "PASS",
+      "frames": 102,
+      "checks": 42,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "still in the blow 12 frames after Fire",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "07b-moon-on-the-left",
+      "step": 7,
+      "kind": "variant",
+      "title": "The moon on the left",
+      "proved": true,
+      "prg_sha256": "af4a35b6d733fc9b72c751a764d03d8b0861c8cc2772af81dcacb5a29f67016e",
+      "test": "PASS",
+      "frames": 90,
+      "checks": 41,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the moon at X 72",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "07x-endless-puff",
+      "step": 7,
+      "kind": "break",
+      "title": "A puff that never ends",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "the enemies' variables equal the model (the route stopped at its first failure)",
+      "detail": "frame 9204 (its puff, then nothing): [[0, 64, 128, 0, 0, 0, 255, 255], [18, 254, 74, 193, 225, 28, 255, 255], [1, 1, 3, 4, 5, 7, 191, 255], [224, 0, 0, 0, 0, 0, 255, 255], [130, 144, 144, 62, 110, 144, 255, 255], [0, 0, 0, 0, 0, 0, 255, 255], [1, 0, 0, 0, 0, 0, 255, 255], [160, 0, 0, 0, 0, 0, 255, 255], [253, 0, 0, 0, 0, 0, 255, 255], [0, 1, 0, 1, 1, 1, 255, 255], [60, 91, 91, 27, 27, 7, 255, 255], [1, 0, 0, 0, 0, 0, 255, 255], [1, 1, 1, 1, 1, 0, 255, 255], [12, 0, 0, 0, 0, 0, 255, 255]] model [[0, 64, 128, 0, 0, 0, None, None], [18, 254, 74, 193, 225, 28, None, None], [1, 1, 3, 4, 5, 7, None, None], [224, 0, 0, 0, 0, 0, None, None], [130, 144, 144, 62, 110, 144, None, None], [0, 0, 0, 0, 0, 0, None, None], [1, 0, 0, 0, 0, 0, None, None], [160, 0, 0, 0, 0, 0, None, None], [253, 0, 0, 0, 0, 0, None, None], [0, 1, 0, 1, 1, 1, None, None], [60, 91, 91, 27, 27, 7, None, None], [1, 0, 0, 0, 0, 0, None, None], [1, 1, 1, 1, 1, 0, None, None], [11, 0, 0, 0, 0, 0, None, None]]",
+      "stopped_at": 9234,
+      "shots": [
+        "variants/07-staff/evidence/07x-endless-puff/endless-puff.png"
+      ]
+    },
+    {
+      "id": "08a-slower-wisps",
+      "step": 8,
+      "kind": "variant",
+      "title": "Slower wisps",
+      "proved": true,
+      "prg_sha256": "b6bf4296d439ecc0f0773f04b5e6117690294ed3a251c1ef889ca03b0219a5dc",
+      "test": "PASS",
+      "frames": 144,
+      "checks": 42,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the four pictures of the wisps",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "08b-still-wisps",
+      "step": 8,
+      "kind": "variant",
+      "title": "Still wisps",
+      "proved": true,
+      "prg_sha256": "2ae92e42f5523ad897e8a15e2011309930d9ee22cf24b4cedfd67ecedd9c28b8",
+      "test": "PASS",
+      "frames": 144,
+      "checks": 41,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "no picture of the mire's wisps changed",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "08x-repeat-too-near",
+      "step": 8,
+      "kind": "break",
+      "title": "A repeat from one byte nearer",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "the level in memory equals the model's (the route stopped at its first failure)",
+      "detail": "frame 1 (still at the start): the level differs",
+      "stopped_at": 61,
+      "shots": [
+        "variants/08-packed-levels/evidence/08x-repeat-too-near/repeat-too-near.png"
+      ]
+    },
+    {
+      "id": "09a-purple-night",
+      "step": 9,
+      "kind": "variant",
+      "title": "A purple night over the castle",
+      "proved": true,
+      "prg_sha256": "9648ba2bc7b9073da5e5f3e3144c47d29eda281eabaa9f4aba5114e0dcd2fd11",
+      "test": "PASS",
+      "frames": 180,
+      "checks": 43,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the gate's sky purple",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "09b-brown-stone",
+      "step": 9,
+      "kind": "variant",
+      "title": "A hall of brown stone",
+      "proved": true,
+      "prg_sha256": "9f52e4f21dd11c268372669243cfc4223cc122acfd36d0ea9c23604d389f9023",
+      "test": "PASS",
+      "frames": 180,
+      "checks": 43,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the captures of the castle as the reference",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "09x-grey-dots",
+      "step": 9,
+      "kind": "break",
+      "title": "Grey dots over the HUD",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "HUD interrupt on line 226 (the route stopped at its first failure)",
+      "detail": "frame 1 (still at the start): line 225",
+      "stopped_at": 41,
+      "shots": [
+        "variants/09-castle/evidence/09x-grey-dots/grey-dots.png"
+      ]
+    },
+    {
+      "id": "10a-four-blows",
+      "step": 10,
+      "kind": "variant",
+      "title": "Four blows for Tom",
+      "proved": true,
+      "prg_sha256": "10a88af5b7e3b698bcf28aa5a0878ac1e31061c4094b68c595e957f71e1a340e",
+      "test": "PASS",
+      "frames": 747,
+      "checks": 46,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "beaten after four blows",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "10b-higher-leaps",
+      "step": 10,
+      "kind": "variant",
+      "title": "Higher leaps",
+      "proved": true,
+      "prg_sha256": "fab5fb710cee70ef2ebe1d50ebe527684d71dff41eaf4d0bff032b33e4ac0a12",
+      "test": "PASS",
+      "frames": 1437,
+      "checks": 46,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "Tom beaten and gone",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "10x-unmirrored",
+      "step": 10,
+      "kind": "break",
+      "title": "Tom not turned round",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "the page of Tom's sprites shown is his picture (0.9) (the route stopped at its first failure)",
+      "detail": "frame 25215 (the fight: up to Tom, a blow while he waits): picture 6",
+      "stopped_at": 25225,
+      "shots": [
+        "variants/10-tom/evidence/10x-unmirrored/unmirrored.png"
+      ]
+    },
+    {
+      "id": "11a-faster-theme",
+      "step": 11,
+      "kind": "variant",
+      "title": "A faster theme",
+      "proved": true,
+      "prg_sha256": "fae9345b7aeca816f04cf313f16a3ed1ae97fd1adc78d5f258bcbd17948db344",
+      "test": "PASS",
+      "frames": 1200,
+      "checks": 42,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the theme shorter in frames",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "11b-plain-melody",
+      "step": 11,
+      "kind": "variant",
+      "title": "A plain melody",
+      "proved": true,
+      "prg_sha256": "a004362f4d6c9a20c26aa3dbf7f9457f94e24fcd48e934986417da0cf8fc610f",
+      "test": "PASS",
+      "frames": 1200,
+      "checks": 42,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the theme played",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "11x-notes-held",
+      "step": 11,
+      "kind": "break",
+      "title": "Notes that never let go",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "music and (0.10.1) sound effects: the SID registers (copy) equal the model, after a frame of music and (0.10.1) as they go into the SID (the route stopped at its first failure)",
+      "detail": "music frame 9: [23, 1, 0, 0, 64, 10, 168, 123, 5, 0, 6, 65, 6, 196, 218, 32, 144, 4, 65, 5, 0, 0, 0, 0, 15] model [23, 1, 0, 0, 64, 10, 168, 123, 5, 0, 6, 64, 6, 196, 218, 32, 144, 4, 64, 5, 0, 0, 0, 0, 15]",
+      "stopped_at": 9,
+      "shots": []
+    },
+    {
+      "id": "12a-morning-words",
+      "step": 12,
+      "kind": "variant",
+      "title": "Other words at dawn",
+      "proved": true,
+      "prg_sha256": "d486cb872ff2cb628f44bb7ce6c40a416884285ec635897fb9baa0980f56d382",
+      "test": "PASS",
+      "frames": 288,
+      "checks": 52,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "dawn reached",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "12b-night-worth-more",
+      "step": 12,
+      "kind": "variant",
+      "title": "A night worth more",
+      "proved": true,
+      "prg_sha256": "065f3ebfee752dd1c074e0c9493f297f0aaf48c31783134a1b7cc2cee071a52b",
+      "test": "PASS",
+      "frames": 2013,
+      "checks": 56,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the score a multiple of 75 more than Tom's 5000",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "12x-band-a-row-down",
+      "step": 12,
+      "kind": "break",
+      "title": "The band a row down",
+      "proved": true,
+      "prg_sha256": "35ad5e64bf754794ee789898684fbe4f6ca21acaea6877e273216420f251936e",
+      "test": "FAIL",
+      "stopped_by": "variants/12-title-and-ends/evidence/12x-band-a-row-down/dreadcastle-clear.png (camera 1743) equals the reference, pixel by pixel",
+      "detail": "224 pixels differ",
+      "failed": [
+        "the game's state, the menu's choice, the score, the band of words (0.10) equal the model (40341 times)",
+        "variants/12-title-and-ends/evidence/12x-band-a-row-down/dreadcastle-clear.png (camera 1743) equals the reference, pixel by pixel",
+        "variants/12-title-and-ends/evidence/12x-band-a-row-down/dreadcastle-won.png (camera 1743) equals the reference, pixel by pixel",
+        "variants/12-title-and-ends/evidence/12x-band-a-row-down/dreadcastle-dawn-village.png (camera 0) equals the reference, pixel by pixel",
+        "variants/12-title-and-ends/evidence/12x-band-a-row-down/dreadcastle-dawn.png (camera 0) equals the reference, pixel by pixel"
+      ],
+      "shots": [
+        "variants/12-title-and-ends/evidence/12x-band-a-row-down/dreadcastle-clear.png"
+      ]
+    },
+    {
+      "id": "13x-effect-held",
+      "step": 13,
+      "kind": "break",
+      "title": "An effect that does not end",
+      "proved": true,
+      "prg_sha256": null,
+      "test": "FAIL",
+      "stopped_by": "music and (0.10.1) sound effects: the SID registers (copy) equal the model, after a frame of music and (0.10.1) as they go into the SID (the route stopped at its first failure)",
+      "detail": "music frame 636: [218, 43, 216, 8, 64, 10, 168, 156, 69, 0, 8, 65, 0, 0, 103, 17, 64, 4, 64, 5, 0, 0, 0, 0, 15] model [218, 43, 216, 8, 64, 10, 168, 156, 69, 0, 8, 64, 0, 0, 103, 17, 64, 4, 64, 5, 0, 0, 0, 0, 15]",
+      "stopped_at": 33,
+      "shots": []
+    }
+  ]
+}

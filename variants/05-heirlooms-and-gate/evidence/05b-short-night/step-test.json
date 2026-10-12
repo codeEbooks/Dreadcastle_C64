@@ -1,0 +1,574 @@
+{
+  "program": "variants/05-heirlooms-and-gate/05b-short-night/game/build/dreadcastle.prg",
+  "prg_bytes": 42027,
+  "prg_sha256": "7e5fd8ca8b8fdabac38668e8b4f1d55a15e95df7a7f98fb726f9b26612e1171f",
+  "vice": "/root/bin/x64sc",
+  "frames": 3088,
+  "start": {
+    "night": 16,
+    "night_time": 188,
+    "transition": 0
+  },
+  "route": [
+    {
+      "what": "wait at the start until dawn",
+      "frames": 3008,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "dawn": 1,
+        "start": 1
+      },
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 3008,
+      "health": 8,
+      "protect": 0,
+      "night": 0,
+      "night_time": 188,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the transition: level 1 again",
+      "frames": 50,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 3058,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 188,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "level 1 from its start, the night full",
+      "frames": 30,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 3088,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 158,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    }
+  ],
+  "surfaces_landed_on": [],
+  "bat": {
+    "perched_on": [],
+    "moths_eaten": {
+      "1": 0
+    },
+    "pictures_shown": 1
+  },
+  "events": [
+    "dawn",
+    "start"
+  ],
+  "frames_screen_off": 13,
+  "colour_moved_by_line": {
+    "top_painted": -999,
+    "bottom_painted": -999
+  },
+  "camera_waits": {
+    "going_right": 0,
+    "going_left": 0
+  },
+  "swaps": 0,
+  "cycles_from_joy_ready_max": {
+    "turn": 6915,
+    "swap_turn": 0,
+    "transition": 14444,
+    "arena_turn": 0
+  },
+  "cycles_most": [
+    [
+      14444,
+      "transition",
+      "frame 3052 (the transition: level 1 again)"
+    ],
+    [
+      14444,
+      "transition",
+      "frame 3051 (the transition: level 1 again)"
+    ],
+    [
+      14444,
+      "transition",
+      "frame 3050 (the transition: level 1 again)"
+    ],
+    [
+      13010,
+      "transition",
+      "frame 3053 (the transition: level 1 again)"
+    ],
+    [
+      6915,
+      "turn",
+      "frame 3059 (level 1 from its start, the night full)"
+    ],
+    [
+      6915,
+      "turn",
+      "frame 1 (wait at the start until dawn)"
+    ],
+    [
+      6893,
+      "turn",
+      "frame 3060 (level 1 from its start, the night full)"
+    ],
+    [
+      6892,
+      "turn",
+      "frame 2 (wait at the start until dawn)"
+    ],
+    [
+      4507,
+      "transition",
+      "frame 3015 (the transition: level 1 again)"
+    ],
+    [
+      4507,
+      "transition",
+      "frame 3014 (the transition: level 1 again)"
+    ],
+    [
+      4507,
+      "transition",
+      "frame 3013 (the transition: level 1 again)"
+    ],
+    [
+      4507,
+      "transition",
+      "frame 3012 (the transition: level 1 again)"
+    ]
+  ],
+  "transition_steps_max": {
+    "draw 0": 14444,
+    "draw 1": 14444,
+    "draw 2": 14444,
+    "draw 3": 13010,
+    "level": 120,
+    "none": 51,
+    "off": 70,
+    "on": 1919,
+    "page": 57,
+    "page of the map": 4507,
+    "second": 2900,
+    "tables": 56
+  },
+  "music": {
+    "frames_checked": 0,
+    "synced_at_music_frame": null,
+    "last_music_frame": 0,
+    "song_frames": 2432,
+    "boss_song_frames": 1224,
+    "frames_played": {
+      "theme": 0,
+      "boss": 0,
+      "clear": 0,
+      "won": 0,
+      "dawn": 0,
+      "stopped": 0
+    },
+    "loops": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "calls": [],
+    "jingles_ended": [],
+    "effects_called": [],
+    "effects_sounded": [],
+    "effects_by_mode": {},
+    "cycles_max": 0,
+    "cycles_mean": 0
+  },
+  "frame_cycles": 19656,
+  "screenshots": [],
+  "hud_end": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    0,
+    36,
+    43,
+    43,
+    43,
+    43,
+    0,
+    37,
+    43,
+    43,
+    43,
+    0,
+    38,
+    1,
+    34,
+    4,
+    0,
+    0,
+    39,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    40,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    30,
+    19,
+    21,
+    21,
+    11,
+    17,
+    15,
+    0,
+    24,
+    16,
+    0,
+    22,
+    24,
+    26,
+    28,
+    11,
+    21,
+    27,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "coverage": null,
+  "flicker_pictures": {},
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sprites 0, 1 multicolour 1 and 7, sprite 7 yellow",
+      "pass": true,
+      "detail": "$d01c=0xfe $d02e=0xf7"
+    },
+    {
+      "check": "the village's characters at $4800 are charset.bin (the moth apart)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the data of levels 1-3 in memory as they are (plain.asm): the maps with zeros after them, the tables of the village and of the wood, the wood's set of characters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "$01 = $35: I/O in, BASIC and KERNAL out",
+      "pass": true,
+      "detail": "0x35"
+    },
+    {
+      "check": "the 25 pictures and the 6 heirlooms at $6800",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the HUD's characters at $5000 are hudset.bin, its glyphs and nothing after them (0.9: the HUD's interrupt shows them on line 175)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the night: 3008 frames, as the model's",
+      "pass": true,
+      "detail": "3008 frames"
+    },
+    {
+      "check": "the program ran the whole route: every stop reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "stops in the expected order (9264 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "HUD interrupt on line 226 (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d016 and $d018 from the frame before (3038 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD's characters from line 226 ($d018) (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "frame_count +1 at each frame, turn on time (6176 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's variables equal the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the camera's variables equal the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level's variables equal the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite registers and pointers equal the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the staff, the blow, the setting equal the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d021, $d022, $d023 and $d01b (the moon behind) as the setting wants them (0.8.1); (0.8.2) $d021 black after the HUD, the setting's (blue in the castle) after the top interrupt (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the setting's tables at $c700 equal the model's (2 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the screen on or off, the sprites on, as the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screens A and B equal the model (6176 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM equals the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screen in front = the level from camera / 8 (3038 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM = the level's colours from camera / 8 (3038 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a ready back screen = the level one column over (3033 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar stands where the route says (3 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's form, smoke, energy, moths equal the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level in memory equals the model's (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moths' characters: the picture of the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD in both screens equals the model (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "form, moths, heirlooms and events where the route says (1 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 2-5 (0.10): on the title the name (hi-res, stretched, its colour), else not stretched and multicolour (3088 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    }
+  ],
+  "result": "PASS"
+}

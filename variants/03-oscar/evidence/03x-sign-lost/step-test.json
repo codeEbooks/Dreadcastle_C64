@@ -1,0 +1,58 @@
+{
+  "program": "variants/03-oscar/03x-sign-lost/game/build/dreadcastle.prg",
+  "stopped_at": 66,
+  "screenshots": [
+    {
+      "file": "variants/03-oscar/evidence/03x-sign-lost/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/03-oscar/evidence/03x-sign-lost/sign-lost.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6d2b667f418c62860cd1c3e2f39d2c25d789f4f98a813ec5ea07036de62da71b",
+      "camera": 0,
+      "oscar": [
+        31,
+        173,
+        8
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 66
+    }
+  ],
+  "checks": [
+    {
+      "check": "Oscar's variables equal the model (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 36 (walk left to the end of the level): [240, 27, 1, 0, 144, 240, 255, 0, 0, 1, 1, 16, 0, 7, 4] model [240, 27, 0, 0, 144, 240, 255, 0, 0, 1, 1, 16, 0, 7, 4]"
+    }
+  ],
+  "result": "FAIL"
+}

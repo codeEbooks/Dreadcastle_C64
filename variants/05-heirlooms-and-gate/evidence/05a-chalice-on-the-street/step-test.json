@@ -1,0 +1,597 @@
+{
+  "program": "variants/05-heirlooms-and-gate/05a-chalice-on-the-street/game/build/dreadcastle.prg",
+  "prg_bytes": 42027,
+  "prg_sha256": "7fde19907e70d1e642c36b95f98f5074692b731f49e26135c1b896b48a83f076",
+  "vice": "/root/bin/x64sc",
+  "frames": 87,
+  "start": {
+    "night": 16,
+    "night_time": 375,
+    "transition": 0
+  },
+  "route": [
+    {
+      "what": "rest at the start",
+      "frames": 10,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 10,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 365,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "walk right to the chalice",
+      "frames": 47,
+      "joystick": 8,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 81,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 1,
+      "events": {
+        "heirloom 0": 1
+      },
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 57,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 318,
+      "score": 500,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 3,
+      "blow": 0
+    },
+    {
+      "what": "let go",
+      "frames": 30,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 81,
+      "x_to": 92,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 1,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 87,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 288,
+      "score": 500,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    }
+  ],
+  "surfaces_landed_on": [],
+  "bat": {
+    "perched_on": [],
+    "moths_eaten": {
+      "1": 0
+    },
+    "pictures_shown": 4
+  },
+  "events": [
+    "heirloom 0"
+  ],
+  "frames_screen_off": 0,
+  "colour_moved_by_line": {
+    "top_painted": -999,
+    "bottom_painted": -999
+  },
+  "camera_waits": {
+    "going_right": 0,
+    "going_left": 0
+  },
+  "swaps": 0,
+  "cycles_from_joy_ready_max": {
+    "turn": 6960,
+    "swap_turn": 0,
+    "transition": 0,
+    "arena_turn": 0
+  },
+  "cycles_most": [
+    [
+      6960,
+      "turn",
+      "frame 1 (rest at the start)"
+    ],
+    [
+      6938,
+      "turn",
+      "frame 2 (rest at the start)"
+    ],
+    [
+      4006,
+      "turn",
+      "frame 3 (rest at the start)"
+    ],
+    [
+      3165,
+      "turn",
+      "frame 56 (walk right to the chalice)"
+    ],
+    [
+      3165,
+      "turn",
+      "frame 48 (walk right to the chalice)"
+    ],
+    [
+      3165,
+      "turn",
+      "frame 40 (walk right to the chalice)"
+    ],
+    [
+      3151,
+      "turn",
+      "frame 32 (walk right to the chalice)"
+    ],
+    [
+      3151,
+      "turn",
+      "frame 24 (walk right to the chalice)"
+    ],
+    [
+      3151,
+      "turn",
+      "frame 16 (walk right to the chalice)"
+    ],
+    [
+      3054,
+      "turn",
+      "frame 8 (rest at the start)"
+    ],
+    [
+      2962,
+      "turn",
+      "frame 72 (let go)"
+    ],
+    [
+      2962,
+      "turn",
+      "frame 64 (let go)"
+    ]
+  ],
+  "transition_steps_max": {},
+  "music": {
+    "frames_checked": 0,
+    "synced_at_music_frame": null,
+    "last_music_frame": 0,
+    "song_frames": 2432,
+    "boss_song_frames": 1224,
+    "frames_played": {
+      "theme": 0,
+      "boss": 0,
+      "clear": 0,
+      "won": 0,
+      "dawn": 0,
+      "stopped": 0
+    },
+    "loops": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "calls": [],
+    "jingles_ended": [],
+    "effects_called": [],
+    "effects_sounded": [],
+    "effects_by_mode": {},
+    "cycles_max": 0,
+    "cycles_mean": 0
+  },
+  "frame_cycles": 19656,
+  "screenshots": [
+    {
+      "file": "variants/05-heirlooms-and-gate/evidence/05a-chalice-on-the-street/chalice-on-street.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "483c066ae96d142f9ee83d66a52d23ec8f024af1c6b0781d117b2d872150f91d",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        1
+      ],
+      "heirloom": [
+        123,
+        178,
+        0
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 12,
+      "pixels_different": 0
+    }
+  ],
+  "hud_end": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    0,
+    36,
+    43,
+    43,
+    43,
+    43,
+    0,
+    37,
+    43,
+    43,
+    43,
+    0,
+    38,
+    2,
+    34,
+    4,
+    0,
+    0,
+    39,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    40,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    30,
+    19,
+    21,
+    21,
+    11,
+    17,
+    15,
+    0,
+    24,
+    16,
+    0,
+    22,
+    24,
+    26,
+    28,
+    11,
+    21,
+    27,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "coverage": null,
+  "flicker_pictures": {},
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sprites 0, 1 multicolour 1 and 7, sprite 7 yellow",
+      "pass": true,
+      "detail": "$d01c=0xfe $d02e=0xf7"
+    },
+    {
+      "check": "the village's characters at $4800 are charset.bin (the moth apart)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the data of levels 1-3 in memory as they are (plain.asm): the maps with zeros after them, the tables of the village and of the wood, the wood's set of characters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "$01 = $35: I/O in, BASIC and KERNAL out",
+      "pass": true,
+      "detail": "0x35"
+    },
+    {
+      "check": "the 25 pictures and the 6 heirlooms at $6800",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the HUD's characters at $5000 are hudset.bin, its glyphs and nothing after them (0.9: the HUD's interrupt shows them on line 175)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the night: 2 minutes (16 steps of 375 frames, 6000 at 50 a second)",
+      "pass": true,
+      "detail": "6000 frames"
+    },
+    {
+      "check": "the program ran the whole route: every stop reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "stops in the expected order (261 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "HUD interrupt on line 226 (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d016 and $d018 from the frame before (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD's characters from line 226 ($d018) (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "frame_count +1 at each frame, turn on time (174 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's variables equal the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the camera's variables equal the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level's variables equal the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite registers and pointers equal the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite 7, the heirloom, equals the model (56 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the staff, the blow, the setting equal the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d021, $d022, $d023 and $d01b (the moon behind) as the setting wants them (0.8.1); (0.8.2) $d021 black after the HUD, the setting's (blue in the castle) after the top interrupt (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the setting's tables at $c700 equal the model's (3 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the screen on or off, the sprites on, as the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screens A and B equal the model (174 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM equals the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screen in front = the level from camera / 8 (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM = the level's colours from camera / 8 (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a ready back screen = the level one column over (85 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar stands where the route says (3 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's form, smoke, energy, moths equal the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level in memory equals the model's (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moths' characters: the picture of the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD in both screens equals the model (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "form, moths, heirlooms and events where the route says (1 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 2-5 (0.10): on the title the name (hi-res, stretched, its colour), else not stretched and multicolour (87 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "variants/05-heirlooms-and-gate/evidence/05a-chalice-on-the-street/chalice-on-street.png (camera 0) equals the reference, pixel by pixel",
+      "pass": true,
+      "detail": "0 pixels differ"
+    }
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,58 @@
+{
+  "program": "variants/09-castle/09x-grey-dots/game/build/dreadcastle.prg",
+  "stopped_at": 41,
+  "screenshots": [
+    {
+      "file": "variants/09-castle/evidence/09x-grey-dots/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "7214abb09127b43d501152d736b672cbfe23866ef26eef83e6398814211c68bf",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/09-castle/evidence/09x-grey-dots/grey-dots.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "e6783f6fae161dd7e324d7d3f8aa08005af06644a8936faf24e333f037613d09",
+      "camera": 0,
+      "oscar": [
+        58,
+        173,
+        7
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 41
+    }
+  ],
+  "checks": [
+    {
+      "check": "HUD interrupt on line 226 (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 1 (still at the start): line 225"
+    }
+  ],
+  "result": "FAIL"
+}

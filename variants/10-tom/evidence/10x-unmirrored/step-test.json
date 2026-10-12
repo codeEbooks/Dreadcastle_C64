@@ -1,0 +1,1416 @@
+{
+  "program": "variants/10-tom/10x-unmirrored/game/build/dreadcastle.prg",
+  "stopped_at": 25225,
+  "screenshots": [
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-chalice.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "237272e4b00e9deaa7872bfa9ef01a1e2f250816623db7ec2394baf7c09dae7b",
+      "camera": 151,
+      "oscar": [
+        200,
+        125,
+        0
+      ],
+      "heirloom": [
+        228,
+        131,
+        0
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 531
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-back-at-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c666115abd858c58204946a01e6bfd519f0dfe0162cf69aff77e1df307198bfd",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 747
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-roof.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "45753f9a331606f170b29c032724dfb05e7c37d5cf80977f51dfdeba8f2ca5e8",
+      "camera": 741,
+      "oscar": [
+        200,
+        93,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 1627
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-lantern.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6c076c8f62a50c6dd10d7247fed2068f0f629f9eabfbe2ca0b58cfe6a77aaa22",
+      "camera": 855,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2163
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-bat-fountain.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "dbdf8ca8bdfe48da74189ad351c6025851e97ed9549e44a0119ac526ad91f929",
+      "camera": 966,
+      "oscar": [
+        200,
+        157,
+        15
+      ],
+      "heirloom": [
+        245,
+        82,
+        1
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2291
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-bat-roof.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "e8710ffb8685b8ba6ae98f79ac279b2939ae12bbea1de8812c4d8486947857f0",
+      "camera": 1261,
+      "oscar": [
+        200,
+        65,
+        15
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          17,
+          97,
+          134,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2771
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-back-at-lantern.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "f91767ffc98bf9ed1e77cb5e326ca1ff04210a48189f864cfc6e9fc7ae146a33",
+      "camera": 907,
+      "oscar": [
+        144,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2963
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-over-the-canal.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "d08bf4407e33023758c1205b9a4bbb416199eec31588a4843bad3285b34f49fe",
+      "camera": 1509,
+      "oscar": [
+        200,
+        173,
+        15
+      ],
+      "heirloom": [
+        246,
+        107,
+        2
+      ],
+      "enemies": [
+        [
+          228,
+          173,
+          131,
+          8
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 3979
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-gate-shut.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6de7d892a45c1d1ecba2b47b04ac32da4af0f0806ff8349fda6bd539163092f9",
+      "camera": 1743,
+      "oscar": [
+        312,
+        173,
+        0
+      ],
+      "heirloom": [
+        12,
+        107,
+        2
+      ],
+      "enemies": [
+        [
+          61,
+          173,
+          130,
+          8
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 5379
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-gate-open.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c3b7326a2bca09e73392b3e847d837effeed6c265be4376aa61f871c86a42668",
+      "camera": 1743,
+      "oscar": [
+        240,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 5891
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-churchyard.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "e4cc19bf47d248c268d3da39bc31ea5d49897092b53048cc94b656dbf5e59cb7",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 5980
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-candelabrum.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "ab06fc2fad55a00d6d7b4a901893437cb5b465667947095f8dd0bee8ea67fb83",
+      "camera": 435,
+      "oscar": [
+        200,
+        141,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          148,
+          141,
+          132,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 6829
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-chapel.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "0fdc560f4491120ba17c322a4518e9433168f13ed1a5e86ccc91adabd598b1d7",
+      "camera": 1007,
+      "oscar": [
+        200,
+        125,
+        15
+      ],
+      "heirloom": [
+        236,
+        58,
+        4
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 7547
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-bridge.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "8322c8d79a9bedd16afb2071431e7acc9d97f1129ebb7bd09a99eba06bb5696b",
+      "camera": 1335,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          226,
+          135,
+          133,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 7867
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-wall.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "f34ba8a9e32028e8867c60eddf3b1478c1bfecab23f28b407ab7ee9084301fb2",
+      "camera": 1692,
+      "oscar": [
+        200,
+        109,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          97,
+          109,
+          136,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 8475
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-wood.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "cd90dc839eecdaa4fcde5552608b638008c5780923fba24f9060c7a2ab60c8ed",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        155,
+        173,
+        226
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 8629
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-staff.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "57c3591e5a45eaec576764c15895b1cf171ab246124cb1e79605892e4551060d",
+      "camera": 26,
+      "oscar": [
+        136,
+        173,
+        6
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          321,
+          173,
+          150,
+          13
+        ]
+      ],
+      "staff": [
+        114,
+        173,
+        221
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 8901
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-brambles.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "7d63858380b1cf50db808221cddce769ebaf0bf4d647bdaabcb97edf75bb9d63",
+      "camera": 679,
+      "oscar": [
+        179,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        201,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 10075
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-oak.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "342760f89045c38fdf48ea0b97e4410d8bae438d0c71d044d1b953404e741408",
+      "camera": 1015,
+      "oscar": [
+        200,
+        109,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        222,
+        109,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 10523
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-river.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "5550a485ed59e465f4d2d0d9938d48b83e95b4a8a33692ba726e4e477f77d3a6",
+      "camera": 1430,
+      "oscar": [
+        200,
+        157,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          254,
+          125,
+          145,
+          8
+        ]
+      ],
+      "staff": [
+        222,
+        157,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 10963
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-hollow-oak.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "235203d24ec71d8c3604c94d29826ba3e137b067e9d7d7e1a73779de238253b9",
+      "camera": 1683,
+      "oscar": [
+        136,
+        93,
+        6
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        114,
+        93,
+        221
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 11677
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-mire.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "0cca91b2ee1de9df920e8f4de559a715c68967e39c0e6c4a0a917b8d27031d4a",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": [
+        315,
+        171,
+        3
+      ],
+      "enemies": [],
+      "staff": [
+        81,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 2,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 11892
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-clods.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "3c780193e0653b309bfd23fc7357a765a8b2847b28633d8027e3181b31ad2605",
+      "camera": 108,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          237,
+          135,
+          145,
+          8
+        ]
+      ],
+      "staff": [
+        222,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 2,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 12212
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-wisps.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "88a4a2bcefdaae87c109f21ab8ab615292d33095b8e82541a207dd547e8219dd",
+      "camera": 914,
+      "oscar": [
+        200,
+        125,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          320,
+          77,
+          144,
+          8
+        ]
+      ],
+      "staff": [
+        222,
+        125,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 2,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 13629
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-dead-tree.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "a06c98295713536029aded2958d64f673d37cc444f79cdda32ba57e17c6f084a",
+      "camera": 1063,
+      "oscar": [
+        200,
+        141,
+        0
+      ],
+      "heirloom": [
+        196,
+        66,
+        4
+      ],
+      "enemies": [
+        [
+          262,
+          87,
+          147,
+          8
+        ]
+      ],
+      "staff": [
+        222,
+        141,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 2,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 13812
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-fallen-tree.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "e11c65c8cb220a227ed07e294f0c75f79e6d905f7607d42238d8213c03fbfdf0",
+      "camera": 1710,
+      "oscar": [
+        136,
+        109,
+        6
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        114,
+        109,
+        221
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 2,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 14956
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-crags.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "305f335dcdf84a619c170d63b0cd7a9d00d38a6e1fcd98a2f3542979f480a0ab",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          236,
+          141,
+          229,
+          1
+        ]
+      ],
+      "staff": [
+        81,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 3,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 15187
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-high-ledge.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "4df8f883540570f0a77401115f62dd76a97f2c9249e8baa5c790e291120c0e1d",
+      "camera": 214,
+      "oscar": [
+        200,
+        109,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        222,
+        109,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 3,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 15691
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-crevasse.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "ab2a6bd3d350b1d254ee5fca7abe5c17c742374ae4348831b46fde17953c7a4b",
+      "camera": 875,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          307,
+          173,
+          228,
+          1
+        ]
+      ],
+      "staff": [
+        222,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 3,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 16523
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-under-the-crag.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "4c9ac15873407a793bb0987b6cb02eb3e565068c65c7c70438a0895b832d43c9",
+      "camera": 1428,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          53,
+          141,
+          233,
+          9
+        ],
+        [
+          253,
+          173,
+          231,
+          1
+        ]
+      ],
+      "staff": [
+        222,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 3,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 17077
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-pass.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "204f7e8097e3c186b9bf015445da6edba36c5793f4df1286b24ece63f8d260bb",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        81,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 4,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 17564
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-spikes.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "f439a75fca170b737de29eb1d9bdbf531afc8a90e56470e47e709e42e524e538",
+      "camera": 84,
+      "oscar": null,
+      "heirloom": [
+        263,
+        170,
+        3
+      ],
+      "enemies": [
+        [
+          296,
+          173,
+          230,
+          1
+        ]
+      ],
+      "staff": null,
+      "moon": [
+        296,
+        52
+      ],
+      "env": 4,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 17908
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-snow-bridge.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "29e8bbd79e27661208c495e87b60bc94dea81cc26b9a78499761c70e045ab181",
+      "camera": 1089,
+      "oscar": [
+        200,
+        77,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        222,
+        77,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 4,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 19100
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-ledge.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "45aed7fa737cfc573b6ff2f9c963e8468e39195af7b5d3fb4795b2a8d4b51b66",
+      "camera": 1743,
+      "oscar": [
+        137,
+        109,
+        6
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        115,
+        109,
+        221
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 4,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 20012
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-gate.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c3adfe3daed17e13635f0ba14bd252fd9ab36cfc38bbd7767a235bfa91ca785a",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          252,
+          134,
+          247,
+          4
+        ]
+      ],
+      "staff": [
+        81,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 5,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 20188
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-turret.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "8f2c6ab5c6c535b54f73f28387d007061737befeedd368edb75f3e37db63ba9e",
+      "camera": 1023,
+      "oscar": [
+        200,
+        125,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          300,
+          173,
+          238,
+          8
+        ]
+      ],
+      "staff": [
+        222,
+        125,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 5,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 21549
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-iron-spikes.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "91746987459a8ebaa4cda55a06f970c8c6d9420918319bc8d5715f91cfa29ed0",
+      "camera": 1318,
+      "oscar": null,
+      "heirloom": [
+        245,
+        91,
+        2
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": [
+        296,
+        52
+      ],
+      "env": 5,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 21876
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-wall-walk.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "b855f28c8fbd5bc0e7505fdb25e5c4afa74a38b6047205ef6f0d0d2b0a0ea70b",
+      "camera": 1427,
+      "oscar": [
+        136,
+        93,
+        6
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          299,
+          78,
+          244,
+          4
+        ]
+      ],
+      "staff": [
+        114,
+        93,
+        221
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 5,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 22612
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-hall.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "81effc1567aa7eaeda32f9deac5e6ced5ce8c7d3acd05c8ad977151451bc3b02",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        81,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 6,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 23236
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-gallery.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c2696e8b4899ab7d91f6c889339302ddab6c58888a8c132a31f1f8c2fbdaa57e",
+      "camera": 573,
+      "oscar": [
+        180,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        202,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 6,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 23972
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-fire.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "eb680ac922b7ddddec2e89d072b219bcad578cc94a5c0624f1a93e084b065859",
+      "camera": 1067,
+      "oscar": null,
+      "heirloom": null,
+      "enemies": [
+        [
+          147,
+          96,
+          244,
+          4
+        ],
+        [
+          304,
+          173,
+          238,
+          8
+        ]
+      ],
+      "staff": null,
+      "moon": [
+        296,
+        52
+      ],
+      "env": 6,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 24604
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-balcony.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "eb6dc9f5e99ea91c9e151922c63ab1cc94b7518b65227267ea929cff868b6f7f",
+      "camera": 1362,
+      "oscar": [
+        200,
+        109,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        222,
+        109,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 6,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 25012
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/dreadcastle-arena.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "747fb607b2f3256985e8a45dfc0d9d982796cfcaf7bfb7a5d071fd68a8889ff6",
+      "camera": 1743,
+      "oscar": [
+        32,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        54,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 6,
+      "tom": [
+        [
+          144,
+          152,
+          252,
+          9
+        ],
+        [
+          168,
+          152,
+          253,
+          9
+        ],
+        [
+          144,
+          173,
+          254,
+          9
+        ],
+        [
+          168,
+          173,
+          255,
+          9
+        ],
+        5
+      ],
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 25180
+    },
+    {
+      "file": "variants/10-tom/evidence/10x-unmirrored/unmirrored.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6c2af3481e3de796ff26353e4087e63e81e39fb7b81e7d6d83e428f69e8c964f",
+      "camera": 1743,
+      "oscar": [
+        80,
+        173,
+        3
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        102,
+        174,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 6,
+      "tom": [
+        [
+          144,
+          152,
+          248,
+          9
+        ],
+        [
+          168,
+          152,
+          249,
+          9
+        ],
+        [
+          144,
+          173,
+          250,
+          9
+        ],
+        [
+          168,
+          173,
+          251,
+          9
+        ],
+        6
+      ],
+      "logo": false,
+      "band": null,
+      "d021": 6,
+      "turn": 25225
+    }
+  ],
+  "checks": [
+    {
+      "check": "the page of Tom's sprites shown is his picture (0.9) (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 25215 (the fight: up to Tom, a blow while he waits): picture 6"
+    }
+  ],
+  "result": "FAIL"
+}

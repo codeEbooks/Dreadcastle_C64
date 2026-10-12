@@ -1,0 +1,58 @@
+{
+  "program": "variants/02-scrolling/02x-colours-left-behind/game/build/dreadcastle.prg",
+  "stopped_at": 84,
+  "screenshots": [
+    {
+      "file": "variants/02-scrolling/evidence/02x-colours-left-behind/scrolling-still.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 13
+    },
+    {
+      "file": "variants/02-scrolling/evidence/02x-colours-left-behind/colours-left-behind.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "a0cdd17e44d8f92cae10314b2d2cab57b156dc0fe1c74834bd27893370cc89e3",
+      "camera": 126,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 84
+    }
+  ],
+  "checks": [
+    {
+      "check": "colour RAM equals the model (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 24 (right: the street scrolls, 2 pixels a frame): column 0 row 15: 12 instead of 15"
+    }
+  ],
+  "result": "FAIL"
+}

@@ -1,0 +1,452 @@
+{
+  "charset.bin": {
+    "bytes": 2048,
+    "sha256": "a6109dc3c05004eeea7c1eb847378980e0b64b9b2a8cc9a9dbf559caf8b8029e"
+  },
+  "env_village.bin": {
+    "bytes": 2304,
+    "sha256": "79f8b9d1657fa096ccafda72d760282bb9d11ad689a4c5bc641fb305331a626c"
+  },
+  "charset_forest.bin": {
+    "bytes": 2048,
+    "sha256": "b6fb49b556a60d763e09d7c3ee75af193cde271e8059ac0bd99d7a55019805ae"
+  },
+  "env_forest.bin": {
+    "bytes": 2304,
+    "sha256": "b894bda37312f47a665b9d39e59bfe6bc953322ece32198a830d95c0261e73de"
+  },
+  "charset_marsh.bin": {
+    "bytes": 2048,
+    "sha256": "663515cff860016b2ced9ae9674c5d18f97839c5ca16ce488ca0f0172fa859b1"
+  },
+  "env_marsh.bin": {
+    "bytes": 2304,
+    "sha256": "d1a4d97f491c9a3c6ff3f6a848711c44458899a89cbd5ba9d2d9e92d10144ede"
+  },
+  "charset_crags.bin": {
+    "bytes": 2048,
+    "sha256": "32f3578dfb7b0c734139937aaf7e10bf61f0496266c29a5e87c3c87833eb4789"
+  },
+  "env_crags.bin": {
+    "bytes": 2304,
+    "sha256": "da142110f934b50b67670ff62499181e56a57595fad390ac440e0450f7c47dc6"
+  },
+  "charset_pass.bin": {
+    "bytes": 2048,
+    "sha256": "9ce3f8403eea9ba5209c8e4bade254dd2911f3a9e1ae61e93f96d1453139a465"
+  },
+  "env_pass.bin": {
+    "bytes": 2304,
+    "sha256": "0e8e38ea21e3dccd84dca4714f3a227fd1f8d1ceeb3e778bc51b900a28499c9c"
+  },
+  "charset_keep.bin": {
+    "bytes": 2048,
+    "sha256": "ab4a51299a562245e41b73bd4a71c926f3609f63f37b8840595aa1990bb1b7af"
+  },
+  "env_keep.bin": {
+    "bytes": 2304,
+    "sha256": "0f7635dbd2b27c4283d82dae0b53b871bac41a1e05f47c3b2d84d12ed439ddc9"
+  },
+  "charset_hall.bin": {
+    "bytes": 2048,
+    "sha256": "84e3397cc512f53ba3f7c285629ef9a3c5dcfa8f621063ad67c8e559eecd46bd"
+  },
+  "env_hall.bin": {
+    "bytes": 2304,
+    "sha256": "90486cf9adcd6fd9be046d128b20e9245a1eea5b92cb856cd65bc9efd844c89c"
+  },
+  "hudset.bin": {
+    "bytes": 2048,
+    "sha256": "763f587ac77e3e12e8e0b8eabe07faa35e505495f4e9ef113e106c3e4622c985"
+  },
+  "hud.bin": {
+    "bytes": 240,
+    "sha256": "9515d6d7327143266e5656225eba7aea0edfc90b700f243b3dbd9e260b8c6075"
+  },
+  "names.bin": {
+    "bytes": 720,
+    "sha256": "94fe66c03883f6f255b46771719c3c560f808beea877856ae593040299808b8d"
+  },
+  "sprites.bin": {
+    "bytes": 3584,
+    "sha256": "f4c619de68fd7ad20e42f382881b997e17218149a7af557951cd648a72530a40"
+  },
+  "enemies.bin": {
+    "bytes": 2816,
+    "sha256": "bb72a4ce941ea1c9d4cd73242219d2691081f7c7edad1f3df2fa83fa2a85d285"
+  },
+  "staff.bin": {
+    "bytes": 704,
+    "sha256": "ca7cb2b0a53d43fc6ac380c002c4cbd88fac8f9c1e5a81b60d71c66053bd7e8d"
+  },
+  "tom.bin": {
+    "bytes": 1536,
+    "sha256": "d7eae7bd0088c8f31656d885e9a34d8a094a16f2b95dacb97d061511f87859cc"
+  },
+  "mirror_to.bin": {
+    "bytes": 256,
+    "sha256": "4c24831a03d6265fa5ebc69ebcff993fa3ba269361f72e753162d2499c3946e9"
+  },
+  "moon.bin": {
+    "bytes": 64,
+    "sha256": "fc597a453b3329424f140b363ac21536936b3237ccc65a5de9726c65438720e2"
+  },
+  "moth.bin": {
+    "bytes": 32,
+    "sha256": "48c096af4ddce027149ce0a211b918ec113fdb86da18f50a2478b06a12ad8ddb"
+  },
+  "flicker.bin": {
+    "bytes": 1024,
+    "sha256": "dc511e76439970dfe63d910eb3c8f74dd4e48b1ed339e4b2371be06baf65c2c0"
+  },
+  "logo.bin": {
+    "bytes": 256,
+    "sha256": "67babb496fae79e96746ac87a1ca772a55c0e017ef9c59e5a36a74f024079847"
+  },
+  "level1.bin": {
+    "bytes": 1408,
+    "sha256": "c31981efb7e80773d7ee8b87c3a68b27915d4360a75316bd83668c9b8f1a3c76"
+  },
+  "level2.bin": {
+    "bytes": 1408,
+    "sha256": "8c34e1f1c5c41d491ba37c2c93b900b85490ddfe7703db1c7abdda2c5e54a31e"
+  },
+  "level3.bin": {
+    "bytes": 1408,
+    "sha256": "490657a3b39ba6142d35ba8c75b39a28743fddc7cb8a0f9b052cdab8a874400c"
+  },
+  "level4.bin": {
+    "bytes": 1408,
+    "sha256": "817f8ea37114cd64323e3ef7bd186821eb519c38822cbf3d56eb32baba1e77e5"
+  },
+  "level5.bin": {
+    "bytes": 1408,
+    "sha256": "b54353b10c441b9899254a39c9ce1ec22e343dcb9e7f37f15dd6064639c0154a"
+  },
+  "level6.bin": {
+    "bytes": 1408,
+    "sha256": "50235e9d46283a2854198cf97d2e605d37a25d2ed4a3d17c364760bc46b32b57"
+  },
+  "level7.bin": {
+    "bytes": 1408,
+    "sha256": "0cf0898806f703d46ccd89617d93921269e1b9e844326e7418ab93868046bdbb"
+  },
+  "level8.bin": {
+    "bytes": 1408,
+    "sha256": "5629e42dc3f027291f7f2c0830250b0cc149165aebe3503d185b6f723c97c28a"
+  },
+  "packed": {
+    "level1.lz": {
+      "bytes": 929,
+      "runs": 294,
+      "sha256": "ecfe6c79239505056376046427d79f7cb44cc2467349a0cdc18e54e27db7a153"
+    },
+    "level2.lz": {
+      "bytes": 644,
+      "runs": 238,
+      "sha256": "847749099d585cf1b16cab95e09ae058c05a696a6beaad04d85ce67f6610bc25"
+    },
+    "level3.lz": {
+      "bytes": 702,
+      "runs": 257,
+      "sha256": "ca337e9de7ad258fd2ccbe8c069b7667039e4ca02e0596d39f41b6e6a7654b2a"
+    },
+    "level4.lz": {
+      "bytes": 611,
+      "runs": 243,
+      "sha256": "6f5c7d85b1acc922351a7c8f4051fec2309492aaf50f322a9f2bd96440e299dc"
+    },
+    "level5.lz": {
+      "bytes": 627,
+      "runs": 243,
+      "sha256": "750c4571df02a8a5554ab7037c29eabedf8ba2f3081e73adb4d9c7ca81458233"
+    },
+    "level6.lz": {
+      "bytes": 748,
+      "runs": 294,
+      "sha256": "f8796a7839fc9e63d0ccbc20bdabf072f4cf6d97a9972be3ccaa60eb32d73447"
+    },
+    "level7.lz": {
+      "bytes": 831,
+      "runs": 253,
+      "sha256": "edda64b93f37a7d825fb0a44602c3587abdd810a0dd6927c2a5d2fbb14fb48c3"
+    },
+    "level8.lz": {
+      "bytes": 548,
+      "runs": 181,
+      "sha256": "6235904082d728cf3650bbd4b43bab766774485ad2b03e2f68ef216ad1cfa482"
+    },
+    "env_village.lz": {
+      "bytes": 1392,
+      "runs": 257,
+      "sha256": "0aef78fe0917ef0e311575ef10b5c5b23a39df19f990be4d6776a290a090cabf"
+    },
+    "env_forest.lz": {
+      "bytes": 782,
+      "runs": 127,
+      "sha256": "930697a632abb4f838d7aabca7f236c3bde9ca12f461c6b55bc87915e55879a1"
+    },
+    "charset_forest.lz": {
+      "bytes": 1583,
+      "runs": 316,
+      "sha256": "33016ca34d2ccf41ecc67f3d6d3e97301c800942bb855fb86933623cc33798dc"
+    },
+    "env_marsh.lz": {
+      "bytes": 718,
+      "runs": 131,
+      "sha256": "fa3b183fdca0ad427539080f9f342faaa695dddafdef1de78804c8f1d96192dd"
+    },
+    "charset_marsh.lz": {
+      "bytes": 1422,
+      "runs": 397,
+      "sha256": "3f0c4338bad57225d53f2f945f012eee872096075edee8b51b80582cc15428fd"
+    },
+    "env_crags.lz": {
+      "bytes": 754,
+      "runs": 119,
+      "sha256": "ccac837104b3a392c6b91e413d21e23c1e09be5d3fe29267063b4d976234229e"
+    },
+    "charset_crags.lz": {
+      "bytes": 1476,
+      "runs": 356,
+      "sha256": "7f8eee058cdc21e289ab6a0234720598e1d126fbca95c5d70822fc6159d927b5"
+    },
+    "env_pass.lz": {
+      "bytes": 716,
+      "runs": 129,
+      "sha256": "f1dbfa21348a9868e83c96101635f429859c7e1db5057998301494026a2f1307"
+    },
+    "charset_pass.lz": {
+      "bytes": 1219,
+      "runs": 335,
+      "sha256": "4a6bca8b53ab563a53e6f6e37120611b8091569c59604814c81a3ccc33b67dfb"
+    },
+    "env_keep.lz": {
+      "bytes": 1069,
+      "runs": 148,
+      "sha256": "6a16f65f36e3157704070eca6fe3ed9ba092f4d5d88dcbb3df555065d4650628"
+    },
+    "charset_keep.lz": {
+      "bytes": 1457,
+      "runs": 421,
+      "sha256": "fa4c972d1631c551e4e340a1bae058069ba3ce1222ee244d51b616f8e3a10e5c"
+    },
+    "env_hall.lz": {
+      "bytes": 735,
+      "runs": 124,
+      "sha256": "ac9c98eccf49257b3b049e44c37269dc437086c7c10c0dbc68b5af3f474905d9"
+    },
+    "charset_hall.lz": {
+      "bytes": 1473,
+      "runs": 422,
+      "sha256": "51eaceb760084145de87455525d136f2e56a3d00d6c01565a9cb5d72f79a2a94"
+    },
+    "tom.lz": {
+      "bytes": 681,
+      "runs": 189,
+      "sha256": "626e2df2d610b7278d06c2bbd29224b0b0293df4501c9b3ee113b9c813913dcf"
+    }
+  },
+  "counts": {
+    "settings": {
+      "village": {
+        "scene_characters": 246,
+        "per_level_new_characters": [
+          195,
+          51
+        ],
+        "free_characters": 7,
+        "metatiles": 227,
+        "per_level_new_metatiles": [
+          173,
+          52
+        ],
+        "profiles": 28
+      },
+      "forest": {
+        "scene_characters": 243,
+        "per_level_new_characters": [
+          243
+        ],
+        "free_characters": 10,
+        "metatiles": 153,
+        "per_level_new_metatiles": [
+          151
+        ],
+        "profiles": 3
+      },
+      "marsh": {
+        "scene_characters": 242,
+        "per_level_new_characters": [
+          242
+        ],
+        "free_characters": 3,
+        "metatiles": 128,
+        "per_level_new_metatiles": [
+          124
+        ],
+        "profiles": 3
+      },
+      "crags": {
+        "scene_characters": 238,
+        "per_level_new_characters": [
+          238
+        ],
+        "free_characters": 15,
+        "metatiles": 143,
+        "per_level_new_metatiles": [
+          141
+        ],
+        "profiles": 5
+      },
+      "pass": {
+        "scene_characters": 203,
+        "per_level_new_characters": [
+          203
+        ],
+        "free_characters": 42,
+        "metatiles": 125,
+        "per_level_new_metatiles": [
+          121
+        ],
+        "profiles": 7
+      },
+      "keep": {
+        "scene_characters": 237,
+        "per_level_new_characters": [
+          237
+        ],
+        "free_characters": 8,
+        "metatiles": 229,
+        "per_level_new_metatiles": [
+          225
+        ],
+        "profiles": 3
+      },
+      "hall": {
+        "scene_characters": 240,
+        "per_level_new_characters": [
+          240
+        ],
+        "free_characters": 5,
+        "metatiles": 135,
+        "per_level_new_metatiles": [
+          131
+        ],
+        "profiles": 8
+      }
+    },
+    "moth_characters": 2,
+    "moths": [
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4
+    ],
+    "sprite_pictures": 25,
+    "heirloom_kinds": 6,
+    "enemy_types": 11,
+    "staff_pictures": 11,
+    "level_columns": [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ]
+  },
+  "music": {
+    "steps": 512,
+    "frames": 2432,
+    "seconds": 48.519,
+    "loop_from_step": 64,
+    "loop_frames": 2128,
+    "loop_seconds": 42.454,
+    "bpm": 158.29,
+    "patterns": 11,
+    "instruments": 11,
+    "wavetable_rows": 31,
+    "pattern_bytes": 316
+  },
+  "music_boss": {
+    "steps": 288,
+    "frames": 1224,
+    "seconds": 24.419,
+    "loop_from_step": 32,
+    "loop_frames": 1088,
+    "loop_seconds": 21.706,
+    "bpm": 176.91,
+    "patterns": 8,
+    "instruments": 11,
+    "wavetable_rows": 31,
+    "pattern_bytes": 285
+  },
+  "music_clear": {
+    "steps": 20,
+    "frames": 95,
+    "seconds": 1.895,
+    "loop_from_step": null,
+    "loop_frames": 0,
+    "loop_seconds": 0.0,
+    "bpm": 158.29,
+    "patterns": 3,
+    "instruments": 11,
+    "wavetable_rows": 31,
+    "pattern_bytes": 41
+  },
+  "music_won": {
+    "steps": 48,
+    "frames": 264,
+    "seconds": 5.267,
+    "loop_from_step": null,
+    "loop_frames": 0,
+    "loop_seconds": 0.0,
+    "bpm": 136.7,
+    "patterns": 5,
+    "instruments": 11,
+    "wavetable_rows": 31,
+    "pattern_bytes": 71
+  },
+  "music_dawn": {
+    "steps": 28,
+    "frames": 168,
+    "seconds": 3.352,
+    "loop_from_step": null,
+    "loop_frames": 0,
+    "loop_seconds": 0.0,
+    "bpm": 125.31,
+    "patterns": 3,
+    "instruments": 11,
+    "wavetable_rows": 31,
+    "pattern_bytes": 35
+  },
+  "sfx": {
+    "effects": 15,
+    "bytes": 203,
+    "reel_seconds": 8.978,
+    "frames": {
+      "jump": 6,
+      "flap": 3,
+      "blow": 5,
+      "moth": 4,
+      "struck": 5,
+      "hurt": 7,
+      "change": 14,
+      "heirloom": 14,
+      "lantern": 12,
+      "gate": 15,
+      "toll": 15,
+      "growl": 12,
+      "tom_hit": 4,
+      "tom_land": 3,
+      "click": 1
+    }
+  }
+}

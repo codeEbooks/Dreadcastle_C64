@@ -1,0 +1,522 @@
+{
+  "program": "variants/07-staff/07x-endless-puff/game/build/dreadcastle.prg",
+  "stopped_at": 9234,
+  "screenshots": [
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-chalice.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "237272e4b00e9deaa7872bfa9ef01a1e2f250816623db7ec2394baf7c09dae7b",
+      "camera": 151,
+      "oscar": [
+        200,
+        125,
+        0
+      ],
+      "heirloom": [
+        228,
+        131,
+        0
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 531
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-back-at-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c666115abd858c58204946a01e6bfd519f0dfe0162cf69aff77e1df307198bfd",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 747
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-roof.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "45753f9a331606f170b29c032724dfb05e7c37d5cf80977f51dfdeba8f2ca5e8",
+      "camera": 741,
+      "oscar": [
+        200,
+        93,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 1627
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-lantern.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6c076c8f62a50c6dd10d7247fed2068f0f629f9eabfbe2ca0b58cfe6a77aaa22",
+      "camera": 855,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2163
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-bat-fountain.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "dbdf8ca8bdfe48da74189ad351c6025851e97ed9549e44a0119ac526ad91f929",
+      "camera": 966,
+      "oscar": [
+        200,
+        157,
+        15
+      ],
+      "heirloom": [
+        245,
+        82,
+        1
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2291
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-bat-roof.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "e8710ffb8685b8ba6ae98f79ac279b2939ae12bbea1de8812c4d8486947857f0",
+      "camera": 1261,
+      "oscar": [
+        200,
+        65,
+        15
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          17,
+          97,
+          134,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2771
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-back-at-lantern.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "f91767ffc98bf9ed1e77cb5e326ca1ff04210a48189f864cfc6e9fc7ae146a33",
+      "camera": 907,
+      "oscar": [
+        144,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2963
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-over-the-canal.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "d08bf4407e33023758c1205b9a4bbb416199eec31588a4843bad3285b34f49fe",
+      "camera": 1509,
+      "oscar": [
+        200,
+        173,
+        15
+      ],
+      "heirloom": [
+        246,
+        107,
+        2
+      ],
+      "enemies": [
+        [
+          228,
+          173,
+          131,
+          8
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 3979
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-gate-shut.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6de7d892a45c1d1ecba2b47b04ac32da4af0f0806ff8349fda6bd539163092f9",
+      "camera": 1743,
+      "oscar": [
+        312,
+        173,
+        0
+      ],
+      "heirloom": [
+        12,
+        107,
+        2
+      ],
+      "enemies": [
+        [
+          61,
+          173,
+          130,
+          8
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 5379
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-gate-open.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "c3b7326a2bca09e73392b3e847d837effeed6c265be4376aa61f871c86a42668",
+      "camera": 1743,
+      "oscar": [
+        240,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 5891
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-churchyard.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "e4cc19bf47d248c268d3da39bc31ea5d49897092b53048cc94b656dbf5e59cb7",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 5980
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-candelabrum.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "ab06fc2fad55a00d6d7b4a901893437cb5b465667947095f8dd0bee8ea67fb83",
+      "camera": 435,
+      "oscar": [
+        200,
+        141,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          148,
+          141,
+          132,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 6829
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-chapel.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "0fdc560f4491120ba17c322a4518e9433168f13ed1a5e86ccc91adabd598b1d7",
+      "camera": 1007,
+      "oscar": [
+        200,
+        125,
+        15
+      ],
+      "heirloom": [
+        236,
+        58,
+        4
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 7547
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-bridge.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "8322c8d79a9bedd16afb2071431e7acc9d97f1129ebb7bd09a99eba06bb5696b",
+      "camera": 1335,
+      "oscar": [
+        200,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          226,
+          135,
+          133,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 7867
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-wall.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "f34ba8a9e32028e8867c60eddf3b1478c1bfecab23f28b407ab7ee9084301fb2",
+      "camera": 1692,
+      "oscar": [
+        200,
+        109,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          97,
+          109,
+          136,
+          11
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 8475
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-wood.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "cd90dc839eecdaa4fcde5552608b638008c5780923fba24f9060c7a2ab60c8ed",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        155,
+        173,
+        226
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 8629
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/dreadcastle-staff.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "57c3591e5a45eaec576764c15895b1cf171ab246124cb1e79605892e4551060d",
+      "camera": 26,
+      "oscar": [
+        136,
+        173,
+        6
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          321,
+          173,
+          150,
+          13
+        ]
+      ],
+      "staff": [
+        114,
+        173,
+        221
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 8901
+    },
+    {
+      "file": "variants/07-staff/evidence/07x-endless-puff/endless-puff.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "1e7576aec76f7d59c1475c079a54d73f8698e61cf46815c189a4861b6bbd60cd",
+      "camera": 148,
+      "oscar": [
+        200,
+        173,
+        2
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": [
+        222,
+        173,
+        216
+      ],
+      "moon": [
+        296,
+        52
+      ],
+      "env": 1,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 9234
+    }
+  ],
+  "checks": [
+    {
+      "check": "the enemies' variables equal the model (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 9204 (its puff, then nothing): [[0, 64, 128, 0, 0, 0, 255, 255], [18, 254, 74, 193, 225, 28, 255, 255], [1, 1, 3, 4, 5, 7, 191, 255], [224, 0, 0, 0, 0, 0, 255, 255], [130, 144, 144, 62, 110, 144, 255, 255], [0, 0, 0, 0, 0, 0, 255, 255], [1, 0, 0, 0, 0, 0, 255, 255], [160, 0, 0, 0, 0, 0, 255, 255], [253, 0, 0, 0, 0, 0, 255, 255], [0, 1, 0, 1, 1, 1, 255, 255], [60, 91, 91, 27, 27, 7, 255, 255], [1, 0, 0, 0, 0, 0, 255, 255], [1, 1, 1, 1, 1, 0, 255, 255], [12, 0, 0, 0, 0, 0, 255, 255]] model [[0, 64, 128, 0, 0, 0, None, None], [18, 254, 74, 193, 225, 28, None, None], [1, 1, 3, 4, 5, 7, None, None], [224, 0, 0, 0, 0, 0, None, None], [130, 144, 144, 62, 110, 144, None, None], [0, 0, 0, 0, 0, 0, None, None], [1, 0, 0, 0, 0, 0, None, None], [160, 0, 0, 0, 0, 0, None, None], [253, 0, 0, 0, 0, 0, None, None], [0, 1, 0, 1, 1, 1, None, None], [60, 91, 91, 27, 27, 7, None, None], [1, 0, 0, 0, 0, 0, None, None], [1, 1, 1, 1, 1, 0, None, None], [11, 0, 0, 0, 0, 0, None, None]]"
+    }
+  ],
+  "result": "FAIL"
+}

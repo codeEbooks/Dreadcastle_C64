@@ -1,0 +1,1045 @@
+{
+  "program": "variants/12-title-and-ends/12b-night-worth-more/game/build/dreadcastle.prg",
+  "prg_bytes": 50793,
+  "prg_sha256": "065f3ebfee752dd1c074e0c9493f297f0aaf48c31783134a1b7cc2cee071a52b",
+  "vice": "/root/bin/x64sc",
+  "frames": 2013,
+  "start": {
+    "night": 16,
+    "night_time": 375,
+    "transition": 0
+  },
+  "route": [
+    {
+      "what": "the title",
+      "frames": 30,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 1972,
+      "x_to": 1972,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 7,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 30,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "Fire: a new game",
+      "frames": 1,
+      "joystick": 16,
+      "tom": null,
+      "x_from": 1972,
+      "x_to": 1972,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 7,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "start": 1
+      },
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 31,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the transition into level 1",
+      "frames": 49,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 1972,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "theme": 1
+      },
+      "camera_from": 1743,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 80,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        572,
+        748,
+        1244,
+        1724
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "rest",
+      "frames": 20,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 100,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 356,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        557,
+        748,
+        1263,
+        1738
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "on to level 8, the staff in hand (the test writes it)",
+      "frames": 1,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 8,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 101,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 356,
+      "score": 0,
+      "staff": 1,
+      "enemy_x": [
+        557,
+        748,
+        1263,
+        1738
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the transition into level 8",
+      "frames": 49,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 8,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "theme": 1
+      },
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 150,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 1,
+      "enemy_x": [
+        316,
+        508,
+        844,
+        1276,
+        1340,
+        1516
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "into the arena (the test writes it)",
+      "frames": 1,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 8,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 151,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 1,
+      "enemy_x": [
+        316,
+        508,
+        844,
+        1276,
+        1340,
+        1516
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the transition into the arena",
+      "frames": 49,
+      "joystick": 0,
+      "tom": {
+        "state": 0,
+        "hits_left": 8,
+        "x": 1856
+      },
+      "x_from": 28,
+      "x_to": 1744,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 8,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "boss theme": 1
+      },
+      "camera_from": 0,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 200,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 1,
+      "enemy_x": [
+        316,
+        508,
+        844,
+        1276,
+        1340,
+        1516
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the fight until the victory",
+      "frames": 1727,
+      "joystick": "the fighter (tests/fight.py), looking at the model",
+      "tom": {
+        "state": 11,
+        "hits_left": 0,
+        "x": 1872
+      },
+      "x_from": 1744,
+      "x_to": 1785,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 8,
+      "landed_on": [
+        "street",
+        "street",
+        "street",
+        "street",
+        "street",
+        "pedestal 3",
+        "street",
+        "street",
+        "street",
+        "street"
+      ],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "tom growls": 14,
+        "blow": 11,
+        "tom struck": 8,
+        "tom leaps": 7,
+        "tom lands": 7,
+        "tom charges": 7,
+        "tom dazed": 7,
+        "hit": 2,
+        "tom beaten": 1,
+        "tom flees": 1,
+        "tom gone": 1,
+        "victory": 1,
+        "band 1": 1
+      },
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 1927,
+      "health": 4,
+      "protect": 0,
+      "night": 12,
+      "night_time": 149,
+      "score": 5000,
+      "staff": 1,
+      "enemy_x": [
+        316,
+        508,
+        844,
+        1276,
+        1340,
+        1516
+      ],
+      "picture": 6,
+      "blow": 0
+    },
+    {
+      "what": "the night into the score",
+      "frames": 86,
+      "joystick": 0,
+      "tom": {
+        "state": 11,
+        "hits_left": 0,
+        "x": 1872
+      },
+      "x_from": 1785,
+      "x_to": 1785,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 8,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 2013,
+      "health": 4,
+      "protect": 0,
+      "night": 0,
+      "night_time": 149,
+      "score": 5900,
+      "staff": 1,
+      "enemy_x": [
+        316,
+        508,
+        844,
+        1276,
+        1340,
+        1516
+      ],
+      "picture": 6,
+      "blow": 0
+    }
+  ],
+  "surfaces_landed_on": [
+    "8: pedestal 3",
+    "8: street"
+  ],
+  "bat": {
+    "perched_on": [],
+    "moths_eaten": {
+      "7": 0,
+      "1": 0,
+      "8": 0
+    },
+    "pictures_shown": 12
+  },
+  "events": [
+    "band 1",
+    "blow",
+    "boss theme",
+    "hit",
+    "start",
+    "theme",
+    "tom beaten",
+    "tom charges",
+    "tom dazed",
+    "tom flees",
+    "tom gone",
+    "tom growls",
+    "tom lands",
+    "tom leaps",
+    "tom struck",
+    "victory"
+  ],
+  "frames_screen_off": 39,
+  "colour_moved_by_line": {
+    "top_painted": -999,
+    "bottom_painted": -999
+  },
+  "camera_waits": {
+    "going_right": 0,
+    "going_left": 0
+  },
+  "swaps": 0,
+  "cycles_from_joy_ready_max": {
+    "turn": 14206,
+    "swap_turn": 0,
+    "transition": 15534,
+    "arena_turn": 14206
+  },
+  "cycles_most": [
+    [
+      15534,
+      "transition",
+      "frame 142 (the transition into level 8)"
+    ],
+    [
+      15456,
+      "transition",
+      "frame 144 (the transition into level 8)"
+    ],
+    [
+      15453,
+      "transition",
+      "frame 74 (the transition into level 1)"
+    ],
+    [
+      15444,
+      "transition",
+      "frame 75 (the transition into level 1)"
+    ],
+    [
+      15441,
+      "transition",
+      "frame 143 (the transition into level 8)"
+    ],
+    [
+      15439,
+      "transition",
+      "frame 73 (the transition into level 1)"
+    ],
+    [
+      14768,
+      "transition",
+      "frame 193 (the transition into the arena)"
+    ],
+    [
+      14754,
+      "transition",
+      "frame 194 (the transition into the arena)"
+    ],
+    [
+      14754,
+      "transition",
+      "frame 192 (the transition into the arena)"
+    ],
+    [
+      14604,
+      "transition",
+      "frame 37 (the transition into level 1)"
+    ],
+    [
+      14301,
+      "transition",
+      "frame 40 (the transition into level 1)"
+    ],
+    [
+      14249,
+      "transition",
+      "frame 34 (the transition into level 1)"
+    ]
+  ],
+  "transition_steps_max": {
+    "draw 0": 15534,
+    "draw 1": 15453,
+    "draw 2": 15456,
+    "draw 3": 14222,
+    "level": 209,
+    "none": 57,
+    "off": 12445,
+    "on": 11556,
+    "page": 63,
+    "page of the map": 14604,
+    "page of the set": 13209,
+    "page of the tables": 14301,
+    "page of the tom": 12381,
+    "second": 5132,
+    "tables": 112
+  },
+  "music": {
+    "frames_checked": 2013,
+    "synced_at_music_frame": 657,
+    "last_music_frame": 2292,
+    "song_frames": 2432,
+    "boss_song_frames": 1224,
+    "frames_played": {
+      "theme": 151,
+      "boss": 1485,
+      "clear": 0,
+      "won": 0,
+      "dawn": 0,
+      "stopped": 377
+    },
+    "loops": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "calls": [
+      [
+        80,
+        "start",
+        0
+      ],
+      [
+        149,
+        "start",
+        0
+      ],
+      [
+        151,
+        "stop"
+      ],
+      [
+        199,
+        "start",
+        1
+      ],
+      [
+        1685,
+        "stop"
+      ]
+    ],
+    "jingles_ended": [],
+    "effects_called": [],
+    "effects_sounded": [],
+    "effects_by_mode": {},
+    "cycles_max": 2179,
+    "cycles_mean": 991
+  },
+  "frame_cycles": 19656,
+  "screenshots": [],
+  "hud_end": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    0,
+    36,
+    43,
+    43,
+    41,
+    41,
+    0,
+    37,
+    43,
+    43,
+    43,
+    0,
+    38,
+    1,
+    34,
+    4,
+    0,
+    0,
+    39,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    40,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    28,
+    24,
+    22,
+    0,
+    14,
+    11,
+    26,
+    20,
+    16,
+    11,
+    23,
+    17,
+    0,
+    41,
+    41,
+    41,
+    41,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    6,
+    10,
+    1,
+    1,
+    0
+  ],
+  "coverage": null,
+  "flicker_pictures": {
+    "5": [
+      0
+    ],
+    "6": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "checks": [
+    {
+      "check": "the count (0.10): LEVEL CLEAR 40 frames, a step of the night every 3, 50 after; the victory 50 before",
+      "pass": true,
+      "detail": "{'TALLY_WAIT': 40, 'TALLY_TICK': 3, 'TALLY_END': 60, 'WON_WAIT': 50}"
+    },
+    {
+      "check": "at the first stop: (0.10) the title, MUSIC, the score 0, no band; no transition",
+      "pass": true,
+      "detail": "[8, 16, 119, 1, 0, 0, 0, 0, 0, 134, 180, 7, 6, 0, 0] states [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sprites 0, 1 multicolour 1 and 7, sprite 7 yellow",
+      "pass": true,
+      "detail": "$d01c=0xc2 $d02e=0xf7"
+    },
+    {
+      "check": "(0.10) the title: sprites 2-5 the name, hi-res, stretched both ways, in its colour; sprite 6, the moon, multicolour",
+      "pass": true,
+      "detail": "$d01c=0xc2 $d017=0x3c $d01d=0x3c colours [7, 7, 7, 7]"
+    },
+    {
+      "check": "the enemies' pictures at $6000, the staff's at $7600, the mountain's and the castle's at $7900: enemies.bin, staff.bin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the village's characters at $4800 are charset.bin (the moth apart); (0.10) SET_SLOT ($5800) holds the set of the title's setting, the keep's, unpacked at the start",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed data in memory (0.8.1) are the .lz files (the maps, the settings' tables, the sets of the wood, the mire, the crags, the pass, the keep and the hall; 0.8.2: some moved under the KERNAL; 0.9: Tom's pictures), and each unpacks to its file (level1.bin..., env_*.bin, charset_*.bin, tom.bin)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "$01 = $35: I/O in, BASIC and KERNAL out",
+      "pass": true,
+      "detail": "0x35"
+    },
+    {
+      "check": "the 25 pictures and the 6 heirlooms at $6800",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the HUD's characters at $5000 are hudset.bin, its glyphs and nothing after them (0.9: the HUD's interrupt shows them on line 175)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the night: 2 minutes (16 steps of 375 frames, 6000 at 50 a second)",
+      "pass": true,
+      "detail": "6000 frames"
+    },
+    {
+      "check": "the songs in memory are the ones music.py compiled (0.9.1: the theme and, under the KERNAL, Tom's; 0.10.1: and the three jingles)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "mirror_to under the KERNAL (0.9.1) is mirror_to.bin (tom.py)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the program ran the whole route: every stop reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "stops in the expected order (6039 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "HUD interrupt on line 226 (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d016 and $d018 from the frame before (1863 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD's characters from line 226 ($d018) (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "frame_count +1 at each frame, turn on time (4026 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's variables equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the camera's variables equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level's variables equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite registers and pointers equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the enemies' variables equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 3-6, the enemies, equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the staff, the blow, the setting equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite 2, the staff, equals the model (0.10.1: its colour too) (1780 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite 6, the moon of the wood, the mire and the mountain, equals the model: still, up on the right (1918 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moon (0.10.2): in a setting with it, place_enemies leaves its bits of $d015 and $d010 as they were (in 0.10.1 it flickered) (2 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d021, $d022, $d023 and $d01b (the moon behind) as the setting wants them (0.8.1); (0.8.2) $d021 black after the HUD, the setting's (blue in the castle) after the top interrupt (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the setting's tables at $c700 equal the model's (6 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the screen on or off, the sprites on, as the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screens A and B equal the model (4026 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM equals the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screen in front = the level from camera / 8 (1778 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM = the level's colours from camera / 8 (1778 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a ready back screen = the level one column over (978 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar stands where the route says (10 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's form, smoke, energy, moths equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level in memory equals the model's (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moths' characters: the picture of the model (4026 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the flickering hazards' characters in SET_SLOT (the wisps, the spikes): the picture of the model (0.8) (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "SET_SLOT holds the set unpacked last, its moth's and its hazards' pictures (0.8) (6 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a packed stream unpacked to its very end, a page a frame (0.8.1: up_src after its last byte) (6 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD in both screens equals the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "form, moths, heirlooms and events where the route says (1 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "music and (0.10.1) sound effects: the SID registers (copy) equal the model, after a frame of music and (0.10.1) as they go into the SID (4025 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "(1.0) no note left on: with no song and no effect playing, the three gates of the SID off (377 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Tom's bytes (0.9) equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 3, 4, 5, 7, Tom (0.9), equal the model (1653 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the page of Tom's sprites shown is his picture (0.9) (1653 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "music: the three voices equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "music: the song and whether it plays (0.9.1) equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the game's state, the menu's choice, the score, the band of words (0.10) equal the model (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 2-5 (0.10): on the title the name (hi-res, stretched, its colour), else not stretched and multicolour (2013 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    }
+  ],
+  "result": "PASS"
+}

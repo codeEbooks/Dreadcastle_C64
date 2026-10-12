@@ -1,0 +1,1708 @@
+{
+  "program": "variants/12-title-and-ends/12a-morning-words/game/build/dreadcastle.prg",
+  "prg_bytes": 50793,
+  "prg_sha256": "d486cb872ff2cb628f44bb7ce6c40a416884285ec635897fb9baa0980f56d382",
+  "vice": "/root/bin/x64sc",
+  "frames": 288,
+  "start": {
+    "night": 16,
+    "night_time": 375,
+    "transition": 0
+  },
+  "route": [
+    {
+      "what": "the title",
+      "frames": 30,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 1972,
+      "x_to": 1972,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 7,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 30,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "Fire: a new game",
+      "frames": 1,
+      "joystick": 16,
+      "tom": null,
+      "x_from": 1972,
+      "x_to": 1972,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 7,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "start": 1
+      },
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 0,
+      "frame": 31,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the transition into level 1",
+      "frames": 49,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 1972,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "theme": 1
+      },
+      "camera_from": 1743,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 80,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        572,
+        748,
+        1244,
+        1724
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "a jump at the start",
+      "frames": 1,
+      "joystick": 1,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 81,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        572,
+        748,
+        1244,
+        1724
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "he lands",
+      "frames": 45,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 126,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 330,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        538,
+        748,
+        1289,
+        1757
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the night near its end (the test writes it)",
+      "frames": 1,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 127,
+      "health": 8,
+      "protect": 0,
+      "night": 1,
+      "night_time": 39,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        537,
+        748,
+        1290,
+        1758
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "dawn: the game stops",
+      "frames": 39,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "dawn": 1
+      },
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 166,
+      "health": 8,
+      "protect": 0,
+      "night": 0,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        508,
+        748,
+        1329,
+        1787
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "the sky lighter, step by step; Oscar in a puff of smoke",
+      "frames": 112,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "sunrise": 1,
+        "band 2": 1
+      },
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 278,
+      "health": 8,
+      "protect": 0,
+      "night": 0,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        508,
+        748,
+        1329,
+        1787
+      ],
+      "picture": 24,
+      "blow": 0
+    },
+    {
+      "what": "the words of dawn",
+      "frames": 10,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 288,
+      "health": 8,
+      "protect": 0,
+      "night": 0,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        508,
+        748,
+        1329,
+        1787
+      ],
+      "picture": 24,
+      "blow": 0
+    }
+  ],
+  "surfaces_landed_on": [],
+  "bat": {
+    "perched_on": [],
+    "moths_eaten": {
+      "7": 0,
+      "1": 0
+    },
+    "pictures_shown": 4
+  },
+  "events": [
+    "band 2",
+    "dawn",
+    "start",
+    "sunrise",
+    "theme"
+  ],
+  "frames_screen_off": 13,
+  "colour_moved_by_line": {
+    "top_painted": -999,
+    "bottom_painted": -999
+  },
+  "camera_waits": {
+    "going_right": 0,
+    "going_left": 0
+  },
+  "swaps": 0,
+  "cycles_from_joy_ready_max": {
+    "turn": 9895,
+    "swap_turn": 0,
+    "transition": 15520,
+    "arena_turn": 0
+  },
+  "cycles_most": [
+    [
+      15520,
+      "transition",
+      "frame 73 (the transition into level 1)"
+    ],
+    [
+      15465,
+      "transition",
+      "frame 75 (the transition into level 1)"
+    ],
+    [
+      15446,
+      "transition",
+      "frame 74 (the transition into level 1)"
+    ],
+    [
+      14623,
+      "transition",
+      "frame 37 (the transition into level 1)"
+    ],
+    [
+      14273,
+      "transition",
+      "frame 40 (the transition into level 1)"
+    ],
+    [
+      14242,
+      "transition",
+      "frame 34 (the transition into level 1)"
+    ],
+    [
+      14068,
+      "transition",
+      "frame 76 (the transition into level 1)"
+    ],
+    [
+      13149,
+      "transition",
+      "frame 42 (the transition into level 1)"
+    ],
+    [
+      13016,
+      "transition",
+      "frame 33 (the transition into level 1)"
+    ],
+    [
+      12305,
+      "transition",
+      "frame 35 (the transition into level 1)"
+    ],
+    [
+      11845,
+      "transition",
+      "frame 36 (the transition into level 1)"
+    ],
+    [
+      10443,
+      "transition",
+      "frame 38 (the transition into level 1)"
+    ]
+  ],
+  "transition_steps_max": {
+    "draw 0": 15520,
+    "draw 1": 15446,
+    "draw 2": 15465,
+    "draw 3": 14068,
+    "level": 151,
+    "none": 57,
+    "off": 192,
+    "on": 3709,
+    "page": 63,
+    "page of the map": 14623,
+    "page of the tables": 14273,
+    "second": 5132,
+    "tables": 112
+  },
+  "music": {
+    "frames_checked": 288,
+    "synced_at_music_frame": 589,
+    "last_music_frame": 876,
+    "song_frames": 2432,
+    "boss_song_frames": 1224,
+    "frames_played": {
+      "theme": 288,
+      "boss": 0,
+      "clear": 0,
+      "won": 0,
+      "dawn": 0,
+      "stopped": 0
+    },
+    "loops": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "calls": [
+      [
+        80,
+        "start",
+        0
+      ]
+    ],
+    "jingles_ended": [],
+    "effects_called": [],
+    "effects_sounded": [],
+    "effects_by_mode": {},
+    "cycles_max": 1965,
+    "cycles_mean": 1114
+  },
+  "frame_cycles": 19656,
+  "screenshots": [
+    {
+      "file": "variants/12-title-and-ends/evidence/12a-morning-words/dawn-words.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "6eaf7572ec4727473edaabde6d710dc8038c96da32694d491d46019e575f386a",
+      "camera": 0,
+      "oscar": null,
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": [
+        2,
+        6,
+        {
+          "0,2": [
+            0,
+            0
+          ],
+          "1,2": [
+            0,
+            0
+          ],
+          "2,2": [
+            0,
+            0
+          ],
+          "3,2": [
+            0,
+            0
+          ],
+          "4,2": [
+            0,
+            0
+          ],
+          "5,2": [
+            0,
+            0
+          ],
+          "6,2": [
+            0,
+            0
+          ],
+          "7,2": [
+            0,
+            0
+          ],
+          "8,2": [
+            0,
+            0
+          ],
+          "9,2": [
+            0,
+            0
+          ],
+          "10,2": [
+            0,
+            0
+          ],
+          "11,2": [
+            0,
+            0
+          ],
+          "12,2": [
+            0,
+            0
+          ],
+          "13,2": [
+            0,
+            0
+          ],
+          "14,2": [
+            0,
+            0
+          ],
+          "15,2": [
+            0,
+            0
+          ],
+          "16,2": [
+            0,
+            0
+          ],
+          "17,2": [
+            0,
+            0
+          ],
+          "18,2": [
+            0,
+            0
+          ],
+          "19,2": [
+            0,
+            0
+          ],
+          "20,2": [
+            0,
+            0
+          ],
+          "21,2": [
+            0,
+            0
+          ],
+          "22,2": [
+            0,
+            0
+          ],
+          "23,2": [
+            0,
+            0
+          ],
+          "24,2": [
+            0,
+            0
+          ],
+          "25,2": [
+            0,
+            0
+          ],
+          "26,2": [
+            0,
+            0
+          ],
+          "27,2": [
+            0,
+            0
+          ],
+          "28,2": [
+            0,
+            0
+          ],
+          "29,2": [
+            0,
+            0
+          ],
+          "30,2": [
+            0,
+            0
+          ],
+          "31,2": [
+            0,
+            0
+          ],
+          "32,2": [
+            0,
+            0
+          ],
+          "33,2": [
+            0,
+            0
+          ],
+          "34,2": [
+            0,
+            0
+          ],
+          "35,2": [
+            0,
+            0
+          ],
+          "36,2": [
+            0,
+            0
+          ],
+          "37,2": [
+            0,
+            0
+          ],
+          "38,2": [
+            0,
+            0
+          ],
+          "0,3": [
+            0,
+            0
+          ],
+          "1,3": [
+            0,
+            0
+          ],
+          "2,3": [
+            0,
+            0
+          ],
+          "3,3": [
+            0,
+            0
+          ],
+          "4,3": [
+            0,
+            0
+          ],
+          "5,3": [
+            0,
+            0
+          ],
+          "6,3": [
+            0,
+            0
+          ],
+          "7,3": [
+            0,
+            0
+          ],
+          "8,3": [
+            0,
+            0
+          ],
+          "9,3": [
+            0,
+            0
+          ],
+          "10,3": [
+            0,
+            0
+          ],
+          "11,3": [
+            22,
+            1
+          ],
+          "12,3": [
+            24,
+            1
+          ],
+          "13,3": [
+            26,
+            1
+          ],
+          "14,3": [
+            23,
+            1
+          ],
+          "15,3": [
+            19,
+            1
+          ],
+          "16,3": [
+            23,
+            1
+          ],
+          "17,3": [
+            17,
+            1
+          ],
+          "18,3": [
+            0,
+            1
+          ],
+          "19,3": [
+            18,
+            1
+          ],
+          "20,3": [
+            11,
+            1
+          ],
+          "21,3": [
+            27,
+            1
+          ],
+          "22,3": [
+            0,
+            1
+          ],
+          "23,3": [
+            13,
+            1
+          ],
+          "24,3": [
+            24,
+            1
+          ],
+          "25,3": [
+            22,
+            1
+          ],
+          "26,3": [
+            15,
+            1
+          ],
+          "27,3": [
+            47,
+            1
+          ],
+          "28,3": [
+            0,
+            0
+          ],
+          "29,3": [
+            0,
+            0
+          ],
+          "30,3": [
+            0,
+            0
+          ],
+          "31,3": [
+            0,
+            0
+          ],
+          "32,3": [
+            0,
+            0
+          ],
+          "33,3": [
+            0,
+            0
+          ],
+          "34,3": [
+            0,
+            0
+          ],
+          "35,3": [
+            0,
+            0
+          ],
+          "36,3": [
+            0,
+            0
+          ],
+          "37,3": [
+            0,
+            0
+          ],
+          "38,3": [
+            0,
+            0
+          ],
+          "0,4": [
+            0,
+            0
+          ],
+          "1,4": [
+            0,
+            0
+          ],
+          "2,4": [
+            0,
+            0
+          ],
+          "3,4": [
+            0,
+            0
+          ],
+          "4,4": [
+            0,
+            0
+          ],
+          "5,4": [
+            0,
+            0
+          ],
+          "6,4": [
+            0,
+            0
+          ],
+          "7,4": [
+            0,
+            0
+          ],
+          "8,4": [
+            0,
+            0
+          ],
+          "9,4": [
+            0,
+            0
+          ],
+          "10,4": [
+            0,
+            0
+          ],
+          "11,4": [
+            0,
+            0
+          ],
+          "12,4": [
+            0,
+            0
+          ],
+          "13,4": [
+            0,
+            0
+          ],
+          "14,4": [
+            0,
+            0
+          ],
+          "15,4": [
+            0,
+            0
+          ],
+          "16,4": [
+            0,
+            0
+          ],
+          "17,4": [
+            0,
+            0
+          ],
+          "18,4": [
+            0,
+            0
+          ],
+          "19,4": [
+            0,
+            0
+          ],
+          "20,4": [
+            0,
+            0
+          ],
+          "21,4": [
+            0,
+            0
+          ],
+          "22,4": [
+            0,
+            0
+          ],
+          "23,4": [
+            0,
+            0
+          ],
+          "24,4": [
+            0,
+            0
+          ],
+          "25,4": [
+            0,
+            0
+          ],
+          "26,4": [
+            0,
+            0
+          ],
+          "27,4": [
+            0,
+            0
+          ],
+          "28,4": [
+            0,
+            0
+          ],
+          "29,4": [
+            0,
+            0
+          ],
+          "30,4": [
+            0,
+            0
+          ],
+          "31,4": [
+            0,
+            0
+          ],
+          "32,4": [
+            0,
+            0
+          ],
+          "33,4": [
+            0,
+            0
+          ],
+          "34,4": [
+            0,
+            0
+          ],
+          "35,4": [
+            0,
+            0
+          ],
+          "36,4": [
+            0,
+            0
+          ],
+          "37,4": [
+            0,
+            0
+          ],
+          "38,4": [
+            0,
+            0
+          ],
+          "0,5": [
+            0,
+            0
+          ],
+          "1,5": [
+            0,
+            0
+          ],
+          "2,5": [
+            0,
+            0
+          ],
+          "3,5": [
+            0,
+            0
+          ],
+          "4,5": [
+            0,
+            0
+          ],
+          "5,5": [
+            0,
+            0
+          ],
+          "6,5": [
+            0,
+            0
+          ],
+          "7,5": [
+            0,
+            0
+          ],
+          "8,5": [
+            0,
+            0
+          ],
+          "9,5": [
+            0,
+            0
+          ],
+          "10,5": [
+            0,
+            0
+          ],
+          "11,5": [
+            0,
+            0
+          ],
+          "12,5": [
+            0,
+            0
+          ],
+          "13,5": [
+            0,
+            0
+          ],
+          "14,5": [
+            0,
+            0
+          ],
+          "15,5": [
+            25,
+            3
+          ],
+          "16,5": [
+            26,
+            3
+          ],
+          "17,5": [
+            15,
+            3
+          ],
+          "18,5": [
+            27,
+            3
+          ],
+          "19,5": [
+            27,
+            3
+          ],
+          "20,5": [
+            0,
+            3
+          ],
+          "21,5": [
+            16,
+            3
+          ],
+          "22,5": [
+            19,
+            3
+          ],
+          "23,5": [
+            26,
+            3
+          ],
+          "24,5": [
+            15,
+            3
+          ],
+          "25,5": [
+            0,
+            0
+          ],
+          "26,5": [
+            0,
+            0
+          ],
+          "27,5": [
+            0,
+            0
+          ],
+          "28,5": [
+            0,
+            0
+          ],
+          "29,5": [
+            0,
+            0
+          ],
+          "30,5": [
+            0,
+            0
+          ],
+          "31,5": [
+            0,
+            0
+          ],
+          "32,5": [
+            0,
+            0
+          ],
+          "33,5": [
+            0,
+            0
+          ],
+          "34,5": [
+            0,
+            0
+          ],
+          "35,5": [
+            0,
+            0
+          ],
+          "36,5": [
+            0,
+            0
+          ],
+          "37,5": [
+            0,
+            0
+          ],
+          "38,5": [
+            0,
+            0
+          ],
+          "0,6": [
+            0,
+            0
+          ],
+          "1,6": [
+            0,
+            0
+          ],
+          "2,6": [
+            0,
+            0
+          ],
+          "3,6": [
+            0,
+            0
+          ],
+          "4,6": [
+            0,
+            0
+          ],
+          "5,6": [
+            0,
+            0
+          ],
+          "6,6": [
+            0,
+            0
+          ],
+          "7,6": [
+            0,
+            0
+          ],
+          "8,6": [
+            0,
+            0
+          ],
+          "9,6": [
+            0,
+            0
+          ],
+          "10,6": [
+            0,
+            0
+          ],
+          "11,6": [
+            0,
+            0
+          ],
+          "12,6": [
+            0,
+            0
+          ],
+          "13,6": [
+            0,
+            0
+          ],
+          "14,6": [
+            0,
+            0
+          ],
+          "15,6": [
+            0,
+            0
+          ],
+          "16,6": [
+            0,
+            0
+          ],
+          "17,6": [
+            0,
+            0
+          ],
+          "18,6": [
+            0,
+            0
+          ],
+          "19,6": [
+            0,
+            0
+          ],
+          "20,6": [
+            0,
+            0
+          ],
+          "21,6": [
+            0,
+            0
+          ],
+          "22,6": [
+            0,
+            0
+          ],
+          "23,6": [
+            0,
+            0
+          ],
+          "24,6": [
+            0,
+            0
+          ],
+          "25,6": [
+            0,
+            0
+          ],
+          "26,6": [
+            0,
+            0
+          ],
+          "27,6": [
+            0,
+            0
+          ],
+          "28,6": [
+            0,
+            0
+          ],
+          "29,6": [
+            0,
+            0
+          ],
+          "30,6": [
+            0,
+            0
+          ],
+          "31,6": [
+            0,
+            0
+          ],
+          "32,6": [
+            0,
+            0
+          ],
+          "33,6": [
+            0,
+            0
+          ],
+          "34,6": [
+            0,
+            0
+          ],
+          "35,6": [
+            0,
+            0
+          ],
+          "36,6": [
+            0,
+            0
+          ],
+          "37,6": [
+            0,
+            0
+          ],
+          "38,6": [
+            0,
+            0
+          ]
+        }
+      ],
+      "d021": 8,
+      "turn": 281,
+      "pixels_different": 0
+    }
+  ],
+  "hud_end": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    0,
+    36,
+    43,
+    43,
+    43,
+    43,
+    0,
+    37,
+    43,
+    43,
+    43,
+    0,
+    38,
+    1,
+    34,
+    4,
+    0,
+    0,
+    39,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    41,
+    40,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    30,
+    19,
+    21,
+    21,
+    11,
+    17,
+    15,
+    0,
+    24,
+    16,
+    0,
+    22,
+    24,
+    26,
+    28,
+    11,
+    21,
+    27,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "coverage": null,
+  "flicker_pictures": {
+    "5": [
+      0
+    ]
+  },
+  "checks": [
+    {
+      "check": "the count (0.10): LEVEL CLEAR 40 frames, a step of the night every 3, 50 after; the victory 50 before",
+      "pass": true,
+      "detail": "{'TALLY_WAIT': 40, 'TALLY_TICK': 3, 'TALLY_END': 60, 'WON_WAIT': 50}"
+    },
+    {
+      "check": "at the first stop: (0.10) the title, MUSIC, the score 0, no band; no transition",
+      "pass": true,
+      "detail": "[8, 16, 119, 1, 0, 0, 0, 0, 0, 134, 180, 7, 6, 0, 0] states [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sprites 0, 1 multicolour 1 and 7, sprite 7 yellow",
+      "pass": true,
+      "detail": "$d01c=0xc2 $d02e=0xf7"
+    },
+    {
+      "check": "(0.10) the title: sprites 2-5 the name, hi-res, stretched both ways, in its colour; sprite 6, the moon, multicolour",
+      "pass": true,
+      "detail": "$d01c=0xc2 $d017=0x3c $d01d=0x3c colours [7, 7, 7, 7]"
+    },
+    {
+      "check": "the enemies' pictures at $6000, the staff's at $7600, the mountain's and the castle's at $7900: enemies.bin, staff.bin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the village's characters at $4800 are charset.bin (the moth apart); (0.10) SET_SLOT ($5800) holds the set of the title's setting, the keep's, unpacked at the start",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed data in memory (0.8.1) are the .lz files (the maps, the settings' tables, the sets of the wood, the mire, the crags, the pass, the keep and the hall; 0.8.2: some moved under the KERNAL; 0.9: Tom's pictures), and each unpacks to its file (level1.bin..., env_*.bin, charset_*.bin, tom.bin)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "$01 = $35: I/O in, BASIC and KERNAL out",
+      "pass": true,
+      "detail": "0x35"
+    },
+    {
+      "check": "the 25 pictures and the 6 heirlooms at $6800",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the HUD's characters at $5000 are hudset.bin, its glyphs and nothing after them (0.9: the HUD's interrupt shows them on line 175)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the night: 2 minutes (16 steps of 375 frames, 6000 at 50 a second)",
+      "pass": true,
+      "detail": "6000 frames"
+    },
+    {
+      "check": "the songs in memory are the ones music.py compiled (0.9.1: the theme and, under the KERNAL, Tom's; 0.10.1: and the three jingles)",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "check": "mirror_to under the KERNAL (0.9.1) is mirror_to.bin (tom.py)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the program ran the whole route: every stop reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "stops in the expected order (864 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "HUD interrupt on line 226 (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d016 and $d018 from the frame before (238 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD's characters from line 226 ($d018) (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "frame_count +1 at each frame, turn on time (576 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's variables equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the camera's variables equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level's variables equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite registers and pointers equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the enemies' variables equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 3-6, the enemies, equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the staff, the blow, the setting equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite 6, the moon of the wood, the mire and the mountain, equals the model: still, up on the right (66 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d021, $d022, $d023 and $d01b (the moon behind) as the setting wants them (0.8.1); (0.8.2) $d021 black after the HUD, the setting's (blue in the castle) after the top interrupt (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the setting's tables at $c700 equal the model's (7 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the screen on or off, the sprites on, as the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screens A and B equal the model (576 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM equals the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screen in front = the level from camera / 8 (115 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM = the level's colours from camera / 8 (115 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a ready back screen = the level one column over (82 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar stands where the route says (9 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's form, smoke, energy, moths equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level in memory equals the model's (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moths' characters: the picture of the model (576 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the flickering hazards' characters in SET_SLOT (the wisps, the spikes): the picture of the model (0.8) (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "SET_SLOT holds the set unpacked last, its moth's and its hazards' pictures (0.8) (7 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a packed stream unpacked to its very end, a page a frame (0.8.1: up_src after its last byte) (2 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD in both screens equals the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "form, moths, heirlooms and events where the route says (2 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "music and (0.10.1) sound effects: the SID registers (copy) equal the model, after a frame of music and (0.10.1) as they go into the SID (575 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Tom's bytes (0.9) equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "music: the three voices equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "music: the song and whether it plays (0.9.1) equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the game's state, the menu's choice, the score, the band of words (0.10) equal the model (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 2-5 (0.10): on the title the name (hi-res, stretched, its colour), else not stretched and multicolour (288 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "variants/12-title-and-ends/evidence/12a-morning-words/dawn-words.png (camera 0) equals the reference, pixel by pixel",
+      "pass": true,
+      "detail": "0 pixels differ"
+    }
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,39 @@
+{
+  "program": "variants/13-complete/13x-effect-held/game/build/dreadcastle.prg",
+  "stopped_at": 33,
+  "screenshots": [
+    {
+      "file": "variants/13-complete/evidence/13x-effect-held/dreadcastle-title.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "fff3fcf29b7d236055172eb12d6412cea4cb11d2222ef014e53007a39d7b6905",
+      "camera": 1743,
+      "oscar": [
+        260,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": [
+        140,
+        116
+      ],
+      "env": 5,
+      "tom": null,
+      "logo": true,
+      "band": null,
+      "d021": 6,
+      "turn": 23
+    }
+  ],
+  "checks": [
+    {
+      "check": "music and (0.10.1) sound effects: the SID registers (copy) equal the model, after a frame of music and (0.10.1) as they go into the SID (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "music frame 636: [218, 43, 216, 8, 64, 10, 168, 156, 69, 0, 8, 65, 0, 0, 103, 17, 64, 4, 64, 5, 0, 0, 0, 0, 15] model [218, 43, 216, 8, 64, 10, 168, 156, 69, 0, 8, 64, 0, 0, 103, 17, 64, 4, 64, 5, 0, 0, 0, 0, 15]"
+    }
+  ],
+  "result": "FAIL"
+}

@@ -1,0 +1,873 @@
+{
+  "program": "variants/02-scrolling/02a-slow-camera/game/build/dreadcastle.prg",
+  "prg_bytes": 42027,
+  "prg_sha256": "6ae89df9aadcdbe2ef380e057ee5a58052ba675554ccee6c0301987536e0975b",
+  "vice": "/root/bin/x64sc",
+  "frames": 4170,
+  "start": {
+    "night": 133,
+    "night_time": 34181,
+    "transition": 134
+  },
+  "route": [
+    {
+      "what": "still: the back screen made ready",
+      "frames": 20,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 20,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "right: the street scrolls, 1 pixel a frame",
+      "frames": 320,
+      "joystick": 8,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 320,
+      "camera_waits": 0,
+      "frame": 340,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "let go: the camera stops",
+      "frames": 10,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 320,
+      "camera_to": 320,
+      "camera_waits": 0,
+      "frame": 350,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "left: the back screen made again, the other way",
+      "frames": 80,
+      "joystick": 4,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 320,
+      "camera_to": 243,
+      "camera_waits": 3,
+      "frame": 430,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "right again",
+      "frames": 60,
+      "joystick": 8,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 243,
+      "camera_to": 303,
+      "camera_waits": 3,
+      "frame": 490,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "right to the end of the level",
+      "frames": 1800,
+      "joystick": 8,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 303,
+      "camera_to": 1743,
+      "camera_waits": 3,
+      "frame": 2290,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "at the end: no more to the right",
+      "frames": 20,
+      "joystick": 8,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 1743,
+      "camera_to": 1743,
+      "camera_waits": 3,
+      "frame": 2310,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "left, all the way back",
+      "frames": 1840,
+      "joystick": 4,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 1743,
+      "camera_to": 0,
+      "camera_waits": 3,
+      "frame": 4150,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "at the start: no more to the left",
+      "frames": 20,
+      "joystick": 4,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 3,
+      "frame": 4170,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    }
+  ],
+  "surfaces_landed_on": [],
+  "bat": {
+    "perched_on": [],
+    "moths_eaten": {
+      "1": 0
+    },
+    "pictures_shown": 1
+  },
+  "events": [],
+  "frames_screen_off": 0,
+  "colour_moved_by_line": {
+    "top_painted": -14,
+    "bottom_painted": 56
+  },
+  "camera_waits": {
+    "going_right": 0,
+    "going_left": 3
+  },
+  "swaps": 454,
+  "cycles_from_joy_ready_max": {
+    "turn": 4412,
+    "swap_turn": 8824,
+    "transition": 0,
+    "arena_turn": 0
+  },
+  "cycles_most": [
+    [
+      8824,
+      "swap_turn",
+      "frame 995 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 987 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 979 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 971 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 963 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 955 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 947 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 939 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 931 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 923 (right to the end of the level)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 92 (right: the street scrolls, 1 pixel a frame)"
+    ],
+    [
+      8824,
+      "swap_turn",
+      "frame 915 (right to the end of the level)"
+    ]
+  ],
+  "transition_steps_max": {},
+  "music": {
+    "frames_checked": 0,
+    "synced_at_music_frame": null,
+    "last_music_frame": 0,
+    "song_frames": 2432,
+    "boss_song_frames": 1224,
+    "frames_played": {
+      "theme": 0,
+      "boss": 0,
+      "clear": 0,
+      "won": 0,
+      "dawn": 0,
+      "stopped": 0
+    },
+    "loops": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "calls": [],
+    "jingles_ended": [],
+    "effects_called": [],
+    "effects_sounded": [],
+    "effects_by_mode": {},
+    "cycles_max": 0,
+    "cycles_mean": 0
+  },
+  "frame_cycles": 19656,
+  "screenshots": [
+    {
+      "file": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-still.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 13,
+      "pixels_different": 0
+    },
+    {
+      "file": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-right.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "d86418c8754cbcceadb07c41300292fff81968756465c1da186e698d7ff06595",
+      "camera": 312,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 333,
+      "pixels_different": 0
+    },
+    {
+      "file": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-end.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "39a2e997cc6e1274ba7d9c21a4774064a49a69576b3e78afe1bc383ee4553e6a",
+      "camera": 1743,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2283,
+      "pixels_different": 0
+    },
+    {
+      "file": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 4143,
+      "pixels_different": 0
+    }
+  ],
+  "hud_end": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    0,
+    36,
+    43,
+    43,
+    43,
+    43,
+    0,
+    37,
+    43,
+    43,
+    43,
+    0,
+    38,
+    1,
+    34,
+    4,
+    0,
+    0,
+    39,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    40,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    30,
+    19,
+    21,
+    21,
+    11,
+    17,
+    15,
+    0,
+    24,
+    16,
+    0,
+    22,
+    24,
+    26,
+    28,
+    11,
+    21,
+    27,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "coverage": null,
+  "flicker_pictures": {},
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sprites 0 and 1: 1 multicolour",
+      "pass": true,
+      "detail": "$d01c=0xfe"
+    },
+    {
+      "check": "the village's characters at $4800 are charset.bin (the moth apart)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the data of levels 1-3 in memory as they are (plain.asm): the maps with zeros after them, the tables of the village and of the wood, the wood's set of characters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "$01 = $35: I/O in, BASIC and KERNAL out",
+      "pass": true,
+      "detail": "0x35"
+    },
+    {
+      "check": "the 25 pictures and the 6 heirlooms at $6800",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the HUD's characters at $5000 are hudset.bin, its glyphs and nothing after them (0.9: the HUD's interrupt shows them on line 175)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the program ran the whole route: every stop reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "stops in the expected order (13418 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "HUD interrupt on line 226 (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d016 and $d018 from the frame before (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD's characters from line 226 ($d018) (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "frame_count +1 at each frame, turn on time (8340 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's variables equal the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the camera's variables equal the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level's variables equal the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite registers and pointers equal the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the staff, the blow, the setting equal the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d021, $d022, $d023 and $d01b (the moon behind) as the setting wants them (0.8.1); (0.8.2) $d021 black after the HUD, the setting's (blue in the castle) after the top interrupt (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the setting's tables at $c700 equal the model's (9 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the screen on or off, the sprites on, as the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screens A and B equal the model (8340 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM equals the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screen in front = the level from camera / 8 (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM = the level's colours from camera / 8 (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a ready back screen = the level one column over (2293 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour rows 0-10 moved before line 51 (454 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour rows 11-21 moved before line 139 (454 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar stands where the route says (9 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level in memory equals the model's (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moths' characters: the picture of the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD in both screens equals the model (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 2-5 (0.10): on the title the name (hi-res, stretched, its colour), else not stretched and multicolour (4170 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-still.png (camera 0) equals the reference, pixel by pixel",
+      "pass": true,
+      "detail": "0 pixels differ"
+    },
+    {
+      "check": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-right.png (camera 312) equals the reference, pixel by pixel",
+      "pass": true,
+      "detail": "0 pixels differ"
+    },
+    {
+      "check": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-end.png (camera 1743) equals the reference, pixel by pixel",
+      "pass": true,
+      "detail": "0 pixels differ"
+    },
+    {
+      "check": "variants/02-scrolling/evidence/02a-slow-camera/scrolling-start.png (camera 0) equals the reference, pixel by pixel",
+      "pass": true,
+      "detail": "0 pixels differ"
+    }
+  ],
+  "result": "PASS"
+}

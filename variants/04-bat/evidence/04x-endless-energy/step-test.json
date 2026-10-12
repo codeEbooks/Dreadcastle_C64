@@ -1,0 +1,146 @@
+{
+  "program": "variants/04-bat/04x-endless-energy/game/build/dreadcastle.prg",
+  "stopped_at": 4688,
+  "screenshots": [
+    {
+      "file": "variants/04-bat/evidence/04x-endless-energy/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/04-bat/evidence/04x-endless-energy/dreadcastle-chalice.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "466a5492d1d62670c61879dcf01ed0e208c8071c4ee488e246370840e82aa733",
+      "camera": 151,
+      "oscar": [
+        200,
+        125,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 525
+    },
+    {
+      "file": "variants/04-bat/evidence/04x-endless-energy/dreadcastle-back-at-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 740
+    },
+    {
+      "file": "variants/04-bat/evidence/04x-endless-energy/dreadcastle-roof.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "395dbd122583ae405174003f270bfcf860ce89882d7e59416311704363b4a1b3",
+      "camera": 741,
+      "oscar": [
+        200,
+        93,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 1621
+    },
+    {
+      "file": "variants/04-bat/evidence/04x-endless-energy/oscar-back.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 2515
+    },
+    {
+      "file": "variants/04-bat/evidence/04x-endless-energy/endless-energy.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "bfbea6bb4b2315d6de0d25791f9be48bc48b18ee16a85d5bad488274518ff042",
+      "camera": 1743,
+      "oscar": [
+        194,
+        54,
+        11
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 4688
+    }
+  ],
+  "checks": [
+    {
+      "check": "Oscar's form, smoke, energy, moths equal the model (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 4668 (beats left until the energy runs out): [1, 0, 64, 254, 0, 1, 0] model [0, 12, 64, 6, 0, 16, 0]"
+    }
+  ],
+  "result": "FAIL"
+}

@@ -1,0 +1,544 @@
+{
+  "program": "variants/03-oscar/03b-faster-walk/game/build/dreadcastle.prg",
+  "prg_bytes": 42027,
+  "prg_sha256": "909c98b1dafdd6b933ed1ebf006917fd6f50c94abf7ae19654d4cbc4b228b600",
+  "vice": "/root/bin/x64sc",
+  "frames": 95,
+  "start": {
+    "night": 133,
+    "night_time": 34181,
+    "transition": 0
+  },
+  "route": [
+    {
+      "what": "rest at the start",
+      "frames": 10,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 28,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 10,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "walk right to the crates",
+      "frames": 55,
+      "joystick": 8,
+      "tom": null,
+      "x_from": 28,
+      "x_to": 110,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {
+        "blocked right": 1
+      },
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 65,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    },
+    {
+      "what": "let go",
+      "frames": 30,
+      "joystick": 0,
+      "tom": null,
+      "x_from": 110,
+      "x_to": 110,
+      "feet": 144,
+      "standing_on": "street",
+      "level": 1,
+      "landed_on": [],
+      "form": "vampire",
+      "energy": 192.0,
+      "moths_eaten": 0,
+      "heirlooms": 0,
+      "events": {},
+      "camera_from": 0,
+      "camera_to": 0,
+      "camera_waits": 0,
+      "frame": 95,
+      "health": 8,
+      "protect": 0,
+      "night": 16,
+      "night_time": 375,
+      "score": 0,
+      "staff": 0,
+      "enemy_x": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "picture": 0,
+      "blow": 0
+    }
+  ],
+  "surfaces_landed_on": [],
+  "bat": {
+    "perched_on": [],
+    "moths_eaten": {
+      "1": 0
+    },
+    "pictures_shown": 4
+  },
+  "events": [
+    "blocked right"
+  ],
+  "frames_screen_off": 0,
+  "colour_moved_by_line": {
+    "top_painted": -999,
+    "bottom_painted": -999
+  },
+  "camera_waits": {
+    "going_right": 0,
+    "going_left": 0
+  },
+  "swaps": 0,
+  "cycles_from_joy_ready_max": {
+    "turn": 5641,
+    "swap_turn": 0,
+    "transition": 0,
+    "arena_turn": 0
+  },
+  "cycles_most": [
+    [
+      5641,
+      "turn",
+      "frame 2 (rest at the start)"
+    ],
+    [
+      5589,
+      "turn",
+      "frame 1 (rest at the start)"
+    ],
+    [
+      2735,
+      "turn",
+      "frame 3 (rest at the start)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 60 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 58 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 57 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 55 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 54 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 52 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 51 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 49 (walk right to the crates)"
+    ],
+    [
+      1597,
+      "turn",
+      "frame 48 (walk right to the crates)"
+    ]
+  ],
+  "transition_steps_max": {},
+  "music": {
+    "frames_checked": 0,
+    "synced_at_music_frame": null,
+    "last_music_frame": 0,
+    "song_frames": 2432,
+    "boss_song_frames": 1224,
+    "frames_played": {
+      "theme": 0,
+      "boss": 0,
+      "clear": 0,
+      "won": 0,
+      "dawn": 0,
+      "stopped": 0
+    },
+    "loops": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "calls": [],
+    "jingles_ended": [],
+    "effects_called": [],
+    "effects_sounded": [],
+    "effects_by_mode": {},
+    "cycles_max": 0,
+    "cycles_mean": 0
+  },
+  "frame_cycles": 19656,
+  "screenshots": [],
+  "hud_end": [
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    44,
+    0,
+    36,
+    43,
+    43,
+    43,
+    43,
+    0,
+    37,
+    43,
+    43,
+    43,
+    0,
+    38,
+    1,
+    34,
+    4,
+    0,
+    0,
+    39,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    43,
+    40,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    30,
+    19,
+    21,
+    21,
+    11,
+    17,
+    15,
+    0,
+    24,
+    16,
+    0,
+    22,
+    24,
+    26,
+    28,
+    11,
+    21,
+    27,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "coverage": null,
+  "flicker_pictures": {},
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "sprites 0 and 1: 1 multicolour",
+      "pass": true,
+      "detail": "$d01c=0xfe"
+    },
+    {
+      "check": "the village's characters at $4800 are charset.bin (the moth apart)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the data of levels 1-3 in memory as they are (plain.asm): the maps with zeros after them, the tables of the village and of the wood, the wood's set of characters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "$01 = $35: I/O in, BASIC and KERNAL out",
+      "pass": true,
+      "detail": "0x35"
+    },
+    {
+      "check": "the 25 pictures and the 6 heirlooms at $6800",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the HUD's characters at $5000 are hudset.bin, its glyphs and nothing after them (0.9: the HUD's interrupt shows them on line 175)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the program ran the whole route: every stop reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "stops in the expected order (285 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "HUD interrupt on line 226 (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d016 and $d018 from the frame before (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD's characters from line 226 ($d018) (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "frame_count +1 at each frame, turn on time (190 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar's variables equal the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the camera's variables equal the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level's variables equal the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprite registers and pointers equal the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the staff, the blow, the setting equal the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "$d021, $d022, $d023 and $d01b (the moon behind) as the setting wants them (0.8.1); (0.8.2) $d021 black after the HUD, the setting's (blue in the castle) after the top interrupt (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the setting's tables at $c700 equal the model's (3 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the screen on or off, the sprites on, as the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screens A and B equal the model (190 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM equals the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "screen in front = the level from camera / 8 (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "colour RAM = the level's colours from camera / 8 (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "a ready back screen = the level one column over (93 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "Oscar stands where the route says (3 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the level in memory equals the model's (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the moths' characters: the picture of the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "the HUD in both screens equals the model (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    },
+    {
+      "check": "sprites 2-5 (0.10): on the title the name (hi-res, stretched, its colour), else not stretched and multicolour (95 times)",
+      "pass": true,
+      "detail": "0 failures; first at "
+    }
+  ],
+  "result": "PASS"
+}

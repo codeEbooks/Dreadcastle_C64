@@ -1,0 +1,68 @@
+; The data, made by game/assets/build_assets.py.
+
+        .cerror LEVEL_WIDTH != 128, "128 columns"
+
+; Each level: its map, its name; its setting.
+        .include "../assets/generated/level_maps.asm"
+        .include "../assets/generated/level_names.asm"
+        .include "../assets/generated/tables.asm"
+level_names:
+        .binary "../assets/generated/names.bin"
+NAME_ROWS = LEVEL_COUNT + 1     ; the levels', then Tom's
+        .cerror * - level_names != NAME_ROWS * 80, "names"
+
+; Where each column of the level being played starts in
+; its copy at LEVEL: a page of its own.
+        .align 256
+level_lo:
+        .byte <(LEVEL + range(LEVEL_WIDTH) * 11)
+level_hi:
+        .byte >(LEVEL + range(LEVEL_WIDTH) * 11)
+        .cerror (level_lo & $ff) != 0, "a page"
+
+        .cerror * > SCREEN_A, "code reaches the screens"
+
+        * = CHARSET
+        .binary "../assets/generated/charset.bin"
+; The HUD's characters. The codes after its glyphs must
+; stay empty: the HUD's interrupt shows them on the last
+; line of the playfield (irq.asm).
+        * = HUD_CHARSET
+        .binary "../assets/generated/hudset.bin"
+
+; Sprites: Oscar's pictures, the bat's and the smoke's, two
+; blocks each, then a block for each kind of heirloom.
+SPRITE_BYTES = PICTURE_COUNT * 128 + HEIRLOOM_KINDS * 64
+
+; The HUD's rows 22 and 23: in the VIC-II's bank, but not
+; seen there.
+        * = HUD_DATA
+hud_chars:                      ; rows 22 and 23
+        .binary "../assets/generated/hud.bin", 0, 80
+hud_colours:
+        .binary "../assets/generated/hud.bin", 120, 80
+        .cerror * > SPRITES, "the HUD: under the sprites"
+
+        * = SPRITES
+        .binary "../assets/generated/sprites.bin"
+        .cerror * - SPRITES != SPRITE_BYTES, "sprites"
+
+; Out of the VIC-II's bank, as they are (plain.asm,
+; written by build_assets.py): the maps of levels 1-3,
+; the tables of their settings and the wood's set of
+; characters. Copied by start_map, start_tables, start_set
+; and unpack_page.
+        * = ENV_DATA
+        .include "../assets/generated/plain.asm"
+        .cerror ENV_COUNT != 7, "seven settings"
+        .cerror LEVEL_COUNT != 8, "eight levels"
+; Each setting's $d018 for screen A, screen B: the
+; characters at CHARSET (the village) or SET_SLOT.
+env_d018_a:     .byte D018_A, D018_A | %100, D018_A | %100
+                .byte D018_A | %100, D018_A | %100
+                .byte D018_A | %100, D018_A | %100
+env_d018_b:     .byte D018_B, D018_B | %100, D018_B | %100
+                .byte D018_B | %100, D018_B | %100
+                .byte D018_B | %100, D018_B | %100
+        .cerror * - env_d018_b != ENV_COUNT, "one a setting"
+        .cerror * > LEVEL, "the data reach the level"

@@ -1,0 +1,13 @@
+{
+  "program": "variants/11-music/11x-notes-held/game/build/dreadcastle.prg",
+  "stopped_at": 9,
+  "screenshots": [],
+  "checks": [
+    {
+      "check": "music and (0.10.1) sound effects: the SID registers (copy) equal the model, after a frame of music and (0.10.1) as they go into the SID (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "music frame 9: [23, 1, 0, 0, 64, 10, 168, 123, 5, 0, 6, 65, 6, 196, 218, 32, 144, 4, 65, 5, 0, 0, 0, 0, 15] model [23, 1, 0, 0, 64, 10, 168, 123, 5, 0, 6, 64, 6, 196, 218, 32, 144, 4, 64, 5, 0, 0, 0, 0, 15]"
+    }
+  ],
+  "result": "FAIL"
+}

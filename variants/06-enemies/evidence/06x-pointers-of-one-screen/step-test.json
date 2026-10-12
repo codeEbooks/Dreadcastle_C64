@@ -1,0 +1,91 @@
+{
+  "program": "variants/06-enemies/06x-pointers-of-one-screen/game/build/dreadcastle.prg",
+  "stopped_at": 647,
+  "screenshots": [
+    {
+      "file": "variants/06-enemies/evidence/06x-pointers-of-one-screen/dreadcastle-start.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "51e81783d4af34de36db65fa64a83aed7d7e22b5948c7577b5fa45d792931199",
+      "camera": 0,
+      "oscar": [
+        59,
+        173,
+        0
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 28
+    },
+    {
+      "file": "variants/06-enemies/evidence/06x-pointers-of-one-screen/dreadcastle-chalice.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "237272e4b00e9deaa7872bfa9ef01a1e2f250816623db7ec2394baf7c09dae7b",
+      "camera": 151,
+      "oscar": [
+        200,
+        125,
+        0
+      ],
+      "heirloom": [
+        228,
+        131,
+        0
+      ],
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 531
+    },
+    {
+      "file": "variants/06-enemies/evidence/06x-pointers-of-one-screen/pointers-of-one-screen.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "541315a76b102366401448120ad07411fd62bd17818c7bc4750fdacfca2cedcc",
+      "camera": 305,
+      "oscar": [
+        200,
+        177,
+        5
+      ],
+      "heirloom": null,
+      "enemies": [
+        [
+          340,
+          173,
+          130,
+          8
+        ]
+      ],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 647
+    }
+  ],
+  "checks": [
+    {
+      "check": "sprites 3-6, the enemies, equal the model (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 645 (walk right to the trapdoor): slot 0: (86, 173, 130, 0, 8)"
+    }
+  ],
+  "result": "FAIL"
+}

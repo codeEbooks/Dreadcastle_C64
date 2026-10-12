@@ -1,0 +1,36 @@
+{
+  "program": "variants/05-heirlooms-and-gate/05x-taken-again/game/build/dreadcastle.prg",
+  "stopped_at": 307,
+  "screenshots": [
+    {
+      "file": "variants/05-heirlooms-and-gate/evidence/05x-taken-again/taken-again.png",
+      "width": 384,
+      "height": 272,
+      "sha256": "004a422b2131d321abe8e2665935da2255aed443da780426e8b9cbad535568b8",
+      "camera": 210,
+      "oscar": [
+        200,
+        125,
+        2
+      ],
+      "heirloom": null,
+      "enemies": [],
+      "staff": null,
+      "moon": null,
+      "env": 0,
+      "tom": null,
+      "logo": false,
+      "band": null,
+      "d021": 0,
+      "turn": 307
+    }
+  ],
+  "checks": [
+    {
+      "check": "the level's variables equal the model (the route stopped at its first failure)",
+      "pass": false,
+      "detail": "frame 277 (level 1: the way of levels.py, move 11): [8, 16, 98, 0, 1, 0, 0, 0, 0, 134, 28, 0, 0, 135, 135] model [8, 16, 98, 0, 1, 1, 0, 0, 0, 134, 28, 0, 0, None, None]"
+    }
+  ],
+  "result": "FAIL"
+}
